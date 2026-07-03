@@ -4,6 +4,34 @@ weight: 7
 ---
 <div class="content-856px-max">
     <p class="lead">There are many techniques that can help beat procrastination. Here are just a few — give them a try and see if any work for you. You might even like to combine two or more to create your own procrastination beating technique.</p>
+	<!-- START YouTube Video -->
+    <figure class="video centre">
+        <div class="responsive-video"><iframe src="https://www.youtube.com/embed/cHl88pp4rmI" frameborder="0" allowfullscreen=""></iframe></div>
+    <!-- START accordion item -->
+    <div class="accordion-item transcript">
+        <p class="accordion-header" id="Transcript-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Transcript-collapseTwo" aria-expanded="false" aria-controls="Transcript-collapseTwo">
+            Optional transcript
+        </button>
+        </p>
+        <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
+        	<div class="accordion-body">
+				<p>If you've ever sat in front of an assignment knowing what you needed to do, wanting to start and somehow ended up reorganizing your desk or watching three hours of YouTube instead, you'll recognize what's coming. Procrastination feels like laziness, but it's actually a problem of emotional regulation. When you can't start, your brain flags the task as the source of an uncomfortable feeling. Boredom, overwhelm, the worry that what you produce won't be good enough. Avoiding the task is how your brain tries to avoid the feeling of procrastination.</p>
+				<p>For neurodivergent brains, this is usually more intense. ADHD often makes low stimulation tasks feel impossible because the brain is starved for the novelty the work doesn't provide. Autistic processing can stall when expectations are unclear or transitions feel abrupt. And procrastination breeds shame, which weighs the next attempt even more.</p>
+				<p>With that said, here's five helpful strategies that will help you overcome procrastination and move past the negative emotions that come along with it.</p>
+				<p>First, let's talk about the five minute rule. This is where you commit to working for five minutes and let yourself stop after that, if you want to. The neat thing is, most of the time you won't want to stop, as the friction is at the start. Once the work is moving, it tends to keep moving. Simple.</p>
+				<p>Second, make your tasks pleasant. Pair the task with something your brain enjoys when the task is happening. This could be a playlist you reserve for studying and writing, a coffee you only get to enjoy when you sit down to study, etc. The module glossary calls this dopamine bridging, and it gives your brain something to associate the work with besides dread.</p>
+				<p>Next, create urgency for your tasks. Many neurodivergent brains experience time and see the now or not now. So a three week deadline can fail to register as real. So try manufacturing a closer deadline. Book a study support appointment for tomorrow and use that as your deadline, or tell a friend you'll send them a paragraph by lunchtime. Your brain doesn't seem to mind whether the deadline is real or invented, only whether it feels close.</p>
+				<p>Then there's body doubling. The idea behind this is that you and someone else share focus while working on separate tasks. You work on your essay, someone else works on their own task. It's that simple. Having another focused person in your space tells your brain that this is a working environment, which lowers the activation cost of starting and makes it harder to drift off. The accountability is indirect, and for a lot of neurodiverse students, it's the single most effective strategy on the list. Our team runs neurodiverse study sessions in the library Tuesday to Thursday afternoons in the city and Wednesdays at Bundoora that put this exact idea into practice, and if you'd rather body double from home, you could try setting up an online meeting with some peers in your class.</p>
+				<p>And finally, you can gamify your tasks. Neurodivergent brains tend to respond well to short, clear feedback loops, which is part of why video games are so absorbing. An essay is often not. You can borrow that same principle for your studying by giving your brain the kind of visible, immediate feedback that the work itself isn't providing. Building something that tracks your progress as you go, or something you stand to lose if you stop, or a specific reward tied to a clear finish line. There are apps that do this for you, like Forest or Habitica, but a paper tally or homemade reward system works just as well.</p>
+				<p>Here's one final thought. For the days when none of this seems to be working: you will procrastinate again at some point. And when you do, try not to pile shame on top of it. Shame is the feeling your brain was already trying to avoid in the first place, so adding more of it tends to make the next attempt even harder.</p>
+				<p>So pick one of these strategies and give it a go this week. Just one is enough to start with.</p>
+            </div>
+        </div>
+    </div>
+    <!-- END accordion item -->
+    </figure>
+    <!-- END YouTube Video -->
 	<!-- START Pomodoro -->
 	<div class="nd-two-col nd-two-col-right margin-bottom-zero">
 		<img src="/nd-workshop/images/time-management/procrast-tomato@2x.png" alt="" />

@@ -10,7 +10,7 @@ weight: 1      # overall order of sections if you list them on the home page
     </div>
     <!-- START YouTube Video -->
     <figure class="video centre">
-        <div class="responsive-video"><iframe src="https://www.youtube.com/embed/U5LBp4E-zWU" frameborder="0" allowfullscreen=""></iframe></div>
+        <div class="responsive-video"><iframe src="https://www.youtube.com/embed/3qD1n7OVRZQ" frameborder="0" allowfullscreen=""></iframe></div>
     <!-- START accordion item -->
     <div class="accordion-item transcript">
         <p class="accordion-header" id="Transcript-headingTwo">
@@ -20,9 +20,14 @@ weight: 1      # overall order of sections if you list them on the home page
         </p>
         <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
         <div class="accordion-body">
-    <p>How do I structure an essay? Essays have three parts: A beginning... A middle... and an end. That is, the introduction, body, and conclusion. It’s important to have structure in your essay, or you will lose the flow of your argument.</p>
-    <p>How do I write an essay introduction? Writing an essay introduction can sometimes be quite challenging. It helps to break down your introduction into three important parts: First, start by introducing your topic. Then, state your argument. And finally, outline your main points.</p>
-    <p>By doing this, your introduction should start broad and become more specific, focusing in on your essay topic. Basically, you’re letting the reader know what you’re going to discuss throughout the essay. Let’s have a look at this introduction as an example:</p>
+            <p>Hi, and welcome. I'm Josh, an Academic Skills Advisor here in the RMIT Library. I'm neurodivergent myself, and I work closely with neurodivergent students here at RMIT.</p>
+            <p>If staying on top of your uni work has ever felt harder for you than it seems to be for everyone else, you're not imagining it, and you're not doing it wrong.</p>
+            <p>This online module is about getting organised in a way that suits how your brain actually works: managing your time, your tasks, and your assignments, without pretending to be someone you're not.</p>
+            <p>Here's how it works. Just below this video there's a map of everything that's covered, so you can see it all at a glance and jump to whatever's useful. You don't have to go through it in order, and you don't have to do all of it. Start to finish it takes around 30 to 45 minutes, but it's built for dipping in and out. Pause it, skip ahead, come back next week.</p>
+            <p>There's no wrong way to do this.</p>
+            <p>Most sections have two levels: a short overview with the essentials, and a deeper dive you can open if you want more detail. Open them when they help, skip them when they don't.</p>
+            <p>One more thing before you start. University can be harder when you're neurodivergent, and that is not a personal failing. So if things feel tough, free counselling is available here at RMIT, and reaching out for it is a sign of strength!</p>
+            <p>Right, let's get into it. And remember folks: progress, not perfection. Take what works for you and leave the rest.</p>
             </div>
         </div>
     </div>
@@ -52,7 +57,7 @@ weight: 1      # overall order of sections if you list them on the home page
     <h2>Module features</h2>
     <p>Everything presented in this module is optional. Feel free to browse and pick out the content and advice that works best for you. </p>
     <ul>
-        <li>Any quizzes are not marked or assessed.</li>
+        <li>Quizzes are not marked or assessed.</li>
         <li>All links are optional — you will not miss any important information if you choose not to open them.</li>
         <li>Feel free to take breaks whenever you need to. A brain break page is included within the module to help with this.</li>
 		<li>Dark mode is available in the settings menu at the top right of the screen (look for the gear icon).</li>
@@ -60,13 +65,13 @@ weight: 1      # overall order of sections if you list them on the home page
 	<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/nd-workshop/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
-			<h3>Deep Dive</h3>
-            <p>Some sections include optional “Deep Dive” content hidden in accordions. These provide extra context and explanation if you would like more detail. Deep Dive sections are marked with the heading “Deep Dive” and an image of a dog digging a hole.</p>
+			<h3>Dig deeper</h3>
+            <p>Some sections include optional “Dig deeper” content hidden in accordions. These provide extra context and explanation if you would like more detail. These sections are marked with the heading "Dig deeper" and an image of a dog digging a hole.</p>
             <p>Here's an example:</p>
         </div>
     </div>
     <!-- END How this works -->
-	<!-- START deep dive examople -->
+	<!-- START dig deeper examople -->
 	<div class="accordion" id="accordionExample">
 		<div class="accordion-item">
 			<h3 class="accordion-header" id="headingOne">
@@ -81,10 +86,10 @@ weight: 1      # overall order of sections if you list them on the home page
 			</div>
 		</div>
 	</div>
-	<!-- END deep dive examople -->
+	<!-- END dig deeper examople -->
 	<!-- START What this module contains -->
 	<h2>What this module contains</h2>
-	<p>This module should take between <strong>30–40 minutes</strong> to complete.</p>
+	<p>This module should take between <strong>35–45 minutes</strong> to complete.</p>
 	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you. Ok, let’s get started with a small piece of self assessment.</p>
 	<!-- END What this module contains -->
 </div>

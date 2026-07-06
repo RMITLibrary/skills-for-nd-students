@@ -11,6 +11,7 @@ weight: 9
 		<li>Effective planning happens at different levels: big picture goals, weekly priorities, and immediate next actions.</li>
 		<li>Motivation can be supported through strategies such as creating urgency, making tasks more enjoyable, gamifying progress, and using body doubling.</li>
 		<li>Progress is about finding strategies that work for your brain, not achieving perfection.</li>
+		<li><strong>Need more help right now?</strong> Visit the <strong><a href="/nd-workshop/time-management/support-resources/">Support and resources</a></strong> page for study, wellbeing and accessibility support.</strong></li>
 	</ul>
 	<h2 class="centre">What’s next:</h2>
 	<div class="home-modules modules-2-up">	

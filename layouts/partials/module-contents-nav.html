@@ -7,9 +7,10 @@
 
 {{/* All child pages of this module, ordered */}}
 {{ $pages := where $section.RegularPages.ByWeight "Params.excludeFromProgress" "ne" true }}
+{{/* Total items in the menu: base module page + child pages */}}
+{{ $total := add (len $pages) 1 }}
 
-{{/* 1. Base module page (e.g. /nd-workshop/time-management/) */}}
-
+{{ if gt $total 1 }}
 <li class="nav-item dropdown me-2">
   <a
     href="#"
@@ -21,7 +22,6 @@
   >
     Module contents
   </a>
-
   <ul id="module-nav" class="dropdown-menu" aria-labelledby="module-nav-toggle">
     {{ $isBaseCurrent := eq $section.RelPermalink $.RelPermalink }}
     <li>
@@ -33,7 +33,6 @@
         {{ $section.Title }}
       </a>
     </li>
-
     {{ range $pages }}
       {{ $isCurrent := eq .RelPermalink $.RelPermalink }}
       <li>
@@ -48,3 +47,4 @@
     {{ end }}
   </ul>
 </li>
+{{ end }}

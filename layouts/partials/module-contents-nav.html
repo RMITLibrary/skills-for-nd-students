@@ -1,0 +1,50 @@
+{{/* module-contents-nav.html */}}
+{{ $section := .CurrentSection }}
+{{ if not $section }}
+  {{/* Fallback: for _index.html use itself as the section */}}
+  {{ $section = .Section }}
+{{ end }}
+
+{{/* All child pages of this module, ordered */}}
+{{ $pages := where $section.RegularPages.ByWeight "Params.excludeFromProgress" "ne" true }}
+
+{{/* 1. Base module page (e.g. /nd-workshop/time-management/) */}}
+
+<li class="nav-item dropdown me-2">
+  <a
+    href="#"
+    class="nav-link dropdown-toggle"
+    id="module-nav-toggle"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Module contents
+  </a>
+
+  <ul id="module-nav" class="dropdown-menu" aria-labelledby="module-nav-toggle">
+    {{ $isBaseCurrent := eq $section.RelPermalink $.RelPermalink }}
+    <li>
+      <a
+        class="dropdown-item{{ if $isBaseCurrent }} active{{ end }}"
+        href="{{ $section.RelPermalink }}"
+        {{ if $isBaseCurrent }} aria-current="page"{{ end }}
+      >
+        {{ $section.Title }}
+      </a>
+    </li>
+
+    {{ range $pages }}
+      {{ $isCurrent := eq .RelPermalink $.RelPermalink }}
+      <li>
+        <a
+          class="dropdown-item{{ if $isCurrent }} active{{ end }}"
+          href="{{ .RelPermalink }}"
+          {{ if $isCurrent }} aria-current="page"{{ end }}
+        >
+          {{ .Title }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</li>

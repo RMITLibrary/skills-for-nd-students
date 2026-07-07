@@ -57,14 +57,27 @@
   'use strict';
 
   window.addEventListener('DOMContentLoaded', () => {
+
     const button = document.getElementById('theme-switch-button');
     const panel  = document.getElementById('theme-switcher');
+    const nav = document.getElementById('module-nav');
+	const navToggle = document.getElementById('module-nav-toggle');
+
+	const closeModuleNav = () => {
+	if (!navToggle) return;
+	const dropdown = bootstrap.Dropdown.getInstance(navToggle) ||
+					new bootstrap.Dropdown(navToggle);
+	dropdown.hide();
+	};
 
     if (!button || !panel) return;
 
     const openPanel = () => {
-      panel.hidden = false;
-      button.setAttribute('aria-expanded', 'true');
+
+		closeModuleNav();
+
+  		panel.hidden = false;
+  		button.setAttribute('aria-expanded', 'true');
     };
 
     const closePanel = () => {
@@ -103,10 +116,22 @@
         closePanel();
       }
     });
+
+	document.addEventListener('shown.bs.dropdown', (event) => {
+	const toggle = event.target; // element with data-bs-toggle="dropdown"
+	if (toggle.id === 'module-nav-toggle') {
+		// This dropdown has just opened – close the theme panel
+		panel.hidden = true;
+		button.setAttribute('aria-expanded', 'false');
+	}
+	});
   });
 })();
 
 /* END theme switcher show and hide */
+
+/* Prevent navigation and them switcher from noth disolaying at once */
+
 
 </script>
 <!-- <script src="/nd-workshop/js/quiz-results-end.js?ver=1.2"></script> -->

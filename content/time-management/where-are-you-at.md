@@ -7,7 +7,7 @@ weight: 1
     <!-- START quiz -->
     <div section="quiz" class="quiz-container">
 		<div class="nd-two-col nd-two-col-right nd-two-col-img-md margin-top-sm">
-			<img src="/nd-workshop/images/time-management/where-you-at.png" alt="" />
+			<img src="/nd-workshop/images/time-management/where-you-at.png" class="hide-sm" alt="" />
 			<div class="nd-two-col-content">
 				<h2 class="title-icon quiz-icon">Self assessment quiz</h2>
 				<p>Read each statement and rate how often it applies to you using the scale below. <!-- Add up your scores within each group of three questions to see where to focus. --></p>

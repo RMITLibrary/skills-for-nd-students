@@ -14,45 +14,73 @@
             </div>
             <!-- END left hand column -->
 			<!-- START right hand column -->
-            <div class="col">
-                <ul>
-                    <li class="menu">
-						<button
-							id="theme-switch-button"
-							class="btn btn-primary cog"
-							type="button"
-							aria-expanded="false"
-							aria-controls="theme-switcher"
-						>
-							Click for settings
-						</button>
-					</li>
-                </ul> 
+<div class="col top-navigation">
+    <ul class="navbar-nav flex-row align-items-center">
+        <!-- Navigation dropdown -->
+		{{ partial "module-contents-nav.html" . }}
 
-				<!--START Dark mode switcher -->
-				<div id="theme-switcher" class="theme-switch" hidden>
-					<fieldset>
-						<legend class="visually-hidden">Theme</legend>
-						<span class="theme-label" aria-hidden="true">Theme</span>
-							
-						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System" id="theme-system">
-							<label for="theme-system" class="form-check-label">System</label>
-						</div>
-						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light" id="theme-light">
-							<label for="theme-light" class="form-check-label">Light</label>
-						</div> 
-						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark" id="theme-dark">
-							<label for="theme-dark" class="form-check-label">Dark</label>
-						</div>
-					</fieldset>
-				</div>
-				<!-- END Dark mode switcher -->
+        <!-- <li class="nav-item dropdown me-2">
+            <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="module-nav-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+            >
+                Module contents
+            </a>
+            <ul id="module-nav" class="dropdown-menu" aria-labelledby="module-nav-toggle">
+				<li><a class="dropdown-item" href="/nd-workshop/time-management/">Time management</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/where-are-you-at/">Where are you at?</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/why-organisation-can-be-tricky/">Why organisation can be tricky</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/prioritise-plan/">Prioritise and plan</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/schedule-time-block/">Schedule and time block</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/break-down-assessments/">Break down assessments</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/beat-procrastination/">Beat procrastination</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/build-your-system/">Reflect and build your system</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/key-takeaways/">Key takeaways and what's next</a></li>
+                <li><a class="dropdown-item" href="/nd-workshop/time-management/support-resources/">Support and resources</a></li>
+            </ul>
+        </li>
+ -->
+        <!-- Theme settings button -->
+        <li class="nav-item menu">
+            <button
+                id="theme-switch-button"
+                class="btn btn-primary cog"
+                type="button"
+                aria-expanded="false"
+                aria-controls="theme-switcher"
+            >
+                Click for settings
+            </button>
+        </li>
+    </ul>
 
+    <!--START Dark mode switcher -->
+    <div id="theme-switcher" class="theme-switch theme-right-nav theme-compact" hidden>
+        <fieldset>
+            <legend class="visually-hidden">Theme</legend>
+            <span class="theme-label" aria-hidden="true">Theme</span>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="auto" aria-label="System" id="theme-system">
+                <label for="theme-system" class="form-check-label">System</label>
             </div>
-            <!-- END right hand column -->
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="light" aria-label="Light" id="theme-light">
+                <label for="theme-light" class="form-check-label">Light</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="themeOptions" data-bs-theme-value="dark" aria-label="Dark" id="theme-dark">
+                <label for="theme-dark" class="form-check-label">Dark</label>
+            </div>
+        </fieldset>
+    </div>
+    <!-- END Dark mode switcher -->
+</div>
+<!-- END right hand column -->
         </div>
     </div>
 </header>

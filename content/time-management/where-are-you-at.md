@@ -10,7 +10,7 @@ weight: 1
 			<img src="/nd-workshop/images/time-management/where-you-at.png" class="hide-sm" alt="" />
 			<div class="nd-two-col-content">
 				<h2 class="title-icon quiz-icon">Self assessment quiz</h2>
-				<p>Read each statement and rate how often it applies to you using the scale below. <!-- Add up your scores within each group of three questions to see where to focus. --></p>
+				<p>Read each statement and rate how often it applies to you. <!-- Add up your scores within each group of three questions to see where to focus. --></p>
 				<!-- <p>1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always</p> -->
 			</div>
 		</div>
@@ -358,7 +358,7 @@ weight: 1
 				<!-- END card -->
 			</div>
 			<!-- END quiz -->
-			<p>Whichever dimension scored highest is probably worth paying the most attention to as you go through the rest of this module. That said, they’re all connected. Getting a handle on one tends to help the others too.</p>
+			<p>As you go through the rest of this module, pay the most attention to the areas where the descriptions feel most accurate for you. They’re all connected, though, so getting a handle on one can help you with the others.</p>
 			<button id="retake-quiz" class="btn btn-secondary">Retake quiz</button>
 		</div>
 	</div>

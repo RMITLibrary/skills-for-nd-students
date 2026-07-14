@@ -23,7 +23,8 @@
 	{{ end }}
 
   {{/* We’ll replace this marker in the content with the heading + list */}}
-  {{ $needle := "<h2>What this module contains</h2>" }}
+  {{ $needle := "<span id='my-nav-maker'></span>" }}
+  
 
   {{/* Render the replacement via a template block */}}
   {{ $replacement := (printf "%s\n%s" $needle (partial "page-list.html" (dict "items" $list))) }}

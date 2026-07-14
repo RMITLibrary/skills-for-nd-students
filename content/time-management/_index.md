@@ -45,12 +45,12 @@ weight: 1      # overall order of sections if you list them on the home page
 	<!-- END safe space-->
     <!-- START what to expect -->
     <h2>What to expect from this module</h2>
-    <ul>
+    <ol>
         <li>First, complete a short unmarked quiz to reflect on your current time management habits.</li>
         <li>Next, explore why time management can be challenging for neurodivergent students.</li>
         <li>Then, learn practical time management strategies and tools.</li>
         <li>Finally, take away simple strategies you can put into practice straight away and find out where to seek additional support if needed.</li>
-    </ul>
+    </ol>
 	<p>You can work through the module from start to finish, or jump to the sections most relevant to you.</p>
     <!-- END what to expoect -->
     <!-- START How this works -->
@@ -90,6 +90,8 @@ weight: 1      # overall order of sections if you list them on the home page
 	<!-- START What this module contains -->
 	<h2>What this module contains</h2>
 	<p>This module should take between <strong>35–45 minutes</strong> to complete.</p>
-	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you. Ok, let’s get started with a small piece of self assessment.</p>
+	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you.</p>
+	<span id='my-nav-maker'></span>
+	<p>Ok, let’s get started with a small piece of self assessment.</p>
 	<!-- END What this module contains -->
 </div>

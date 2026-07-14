@@ -204,32 +204,44 @@ weight: 8
 			<!-- END tools-pomodoro -->
 			<!-- START tools-body-doubling -->
 			<div id="tools-body-doubling">
-			<p><strong>Some tools I can use to help me with body doubling are</strong> <a href="">enter resource name</a> and <a href="">enter resource name</a>.</p>
+			<p><strong>Some tools I can use to help me with body doubling are</strong> 
+				<a href="https://www.rmit.edu.au/students/support-services/study-support/consultations">RMIT neurodiverse study sessions (via Academic Skills)</a> and 
+				<a href="https://www.youtube.com/results?search_query=study+with+me">YouTube “study with me” videos</a>.
+			</p>
 			</div>
 			<!-- END tools-body-doubling -->
 			<!-- START tools-prioritisation -->
 			<div id="tools-prioritisation">
-			<p><strong>Some tools I can use to help me with prioritisation are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p>
+			<p><strong>Some tools I can use to help me with prioritisation are</strong> 
+				<a href="/nd-workshop/time-management/prioritise-plan/#student-time-matrix">Student Time Matrix</a> and 
+				<a href="https://www.youtube.com/watch?v=JP32D3_netQ">Microsoft Planner (video guide)</a>.
+			</p>
 			</div>
 			<!-- END tools-prioritisation -->
 			<!-- START tools-create-urgency -->
 			<div id="tools-create-urgency">
-			<p><strong>Some tools I can use to help me with the creating urgency technique are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p>
+			<p><strong>Some tools I can use to help me with the creating urgency technique are</strong> 
+				<a href="https://learninglab.rmit.edu.au/AssignmentPlanner/">RMIT Assignment Planner</a> and 
+				<a href="https://outlook.office.com/calendar">Microsoft Outlook Calendar</a>.
+			</p>
 			</div>
 			<!-- END tools-create-urgency -->
 			<!-- START tools-5-minute-rule -->
 			<div id="tools-5-minute-rule">
-			<p><strong>Some tools I can use to help me with the 5-minute rule are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p>
+			<p><strong>Some tools I can use to help me with the 5-minute rule are</strong> 
+				the timer on my phone and 
+				<a href="https://forestapp.cc/">Forest</a>.
+			</p>
 			</div>
 			<!-- END tools-5-minute-rule -->
 			<!-- START tools-make-it-pleasant -->
 			<div id="tools-make-it-pleasant">
-			<p><strong>Some tools I can use to help me with the make it pleasant technique are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p>
+			<!-- <p><strong>Some tools I can use to help me with the make it pleasant technique are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p> -->
 			</div>
 			<!-- END tools-make-it-pleasant -->
 			<!-- START tools-gamify-it -->
 			<div id="tools-gamify-it">
-			<p><strong>Some tools I can use to help me with the gamify it technique are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p>
+			<p><strong>Some tools I can use to help me with the gamify it technique are</strong> <a href="https://forestapp.cc/">Forest</a> and <a href="https://habitica.com/static/home">Habitica</a>.</p>
 			</div>
 			<!-- END tools-gamify-it -->
 			<!-- START tools-break-down-assessments -->
@@ -239,12 +251,16 @@ weight: 8
 			<!-- END tools-break-down-assessments -->
 			<!-- START tools-schedule-timeblock -->
 			<div id="tools-schedule-timeblock">
-			<p><strong>Some tools I can use to help me with scheduling and timeblocking are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p>
+			<p><strong>A tool I can use to help me with scheduling and timeblocking is</strong> 
+				<a href="https://outlook.office.com/calendar">Microsoft Outlook Calendar</a>.
+			</p>
 			</div>
 			<!-- END tools-schedule-timeblock -->
 			<!-- START tools-externalising -->
 			<div id="tools-externalising">
-			<p><strong>Some tools I can use to help me with externalising are</strong> <a href="">enter resource name</a> and <a href="/">enter resource name</a>.</p>
+			<p><strong>Some tools I can use to help me with externalising are</strong> 
+				<a href="https://todoist.com/">Todoist</a> and physical sticky notes.
+			</p>
 			</div>
 			<!-- END tools-externalising -->
             <!-- START info-pomodoro -->

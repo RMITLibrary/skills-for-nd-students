@@ -16,7 +16,7 @@ weight: 5
 	<h3>1. RMIT Assignment Planner: step by step assignment support</h3>
 	<h4>Why it helps:</h4>
 	<p>
-	The <a href="https://learninglab.rmit.edu.au/AssignmentPlanner/">Assignment Planner</a> removes the “where do I even start?” problem by giving you a clear sequence of steps. This can be especially useful if planning and prioritising don’t come naturally or feel overwhelming.
+	The <a href="https://learninglab.rmit.edu.au/AssignmentPlanner/">RMIT Assignment Planner</a> removes the “where do I even start?” problem by giving you a clear sequence of steps. This can be especially useful if planning and prioritising don’t come naturally or feel overwhelming.
 	</p>
 	<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
 		<img src="/nd-workshop/images/time-management/assignment-plan-01.png" alt="" aria-labelledby="my-attribution" />
@@ -32,7 +32,7 @@ weight: 5
 	</div>
 	<h4>How to use it effectively:</h4>
 	<ul>
-		<li>Use the Assignment Planner as soon as an assessment’s details are released.</li>
+		<li>Use the RMIT Assignment Planner as soon as an assessment’s details are released.</li>
 		<li>Consider how long the assignment is likely to take you and put in some buffer time. E.g., if a 1,500-word essay typically takes you two weeks, make the <strong>start date</strong> 2.5 weeks before the <strong>due date</strong>.</li>
 		<li>Focus on <strong>one stage at a time</strong> rather than the whole assignment.</li>
 		<li>Treat the suggested dates as <strong>guidelines</strong>, not pressure. You can adjust the pace to suit your energy and capacity.</li>
@@ -118,15 +118,15 @@ weight: 5
 	<hr />
 	<h3>3. All-Assignment Planning Template</h3>
 	<p>Something the tools above don’t do is allow you to assess and see all your assignments together. This “big picture” perspective is useful to plan your semester and assess how you’re going to balance your time across all your courses and assessments. It also allows you to track your progress, include reminders about things like asking your tutor clarification questions, and prioritise by looking at which assignments are more important, more difficult and so on. </p>
-	<p>	The template is available as <a href="/nd-workshop/docs/all-assignment-planner.docx">Word doc</a> and as an <a href="/nd-workshop/docs/all-assignment-planner.xlsx">Excel spreadsheet</a>  (which gives you more options to filter and sort).
+	<p>We have a helpful All-Assignment Planning Template that you can use. The template is available as <a href="/nd-workshop/docs/all-assignment-planner.docx">Word doc</a> and as an <a href="/nd-workshop/docs/all-assignment-planner.xlsx">Excel spreadsheet</a>  (which gives you more options to filter and sort).
 	<figure class="wide" aria-labelledby="my-attribution">
 		<img src="/nd-workshop/images/time-management/all-assignment-template.png" alt='Excel spreadsheet showing the all assignment template.' />
 	</figure>
 	<h2>Using the tools together</h2>
-	<p>These tools work well when paired:</p>
+	<p>These three tools complement one another well.</p>
 	<ul>
 		<li><strong>All-Assignment Planner</strong> – shows the <em>big picture</em> of all your assignments together across the semester.</li>
-		<li><strong>Assignment Planner</strong> – shows the <em>big picture</em> and timeline of each assignment.</li>
+		<li><strong>RMIT Assignment Planner</strong> – shows the <em>big picture</em> and timeline of each assignment.</li>
 		<li><strong>Magic To‑Do</strong> – helps you break individual steps into <em>doable actions</em>.</li>
 	</ul>
 	<p>For example:</p>

@@ -14,8 +14,8 @@ weight: 10
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
 					<img src="/nd-workshop/images/time-management/vis-story-01.jpg" alt="A portrait of Chelsea. An RMIT Student." />
 					<div>
-						<h3 id="top-slide1" tabindex="-1">Using study support</h3>
-						<p class="margin-top-zero">Chelsea is looking for some assistance with academic writing and finding reliable information for her assignment, so she’s heading to RMIT’s Study Support Drop-in at the Swanston Library.</p>
+						<h3 id="top-slide1" tabindex="-1">Using Study Support</h3>
+						<p class="margin-top-zero">Chelsea is looking for some assistance with academic writing and finding reliable information for her assignment, so she’s heading to RMIT’s Study Support drop-in at the Swanston Library.</p>
 					</div>
 				</div>
 			<!-- END content-->

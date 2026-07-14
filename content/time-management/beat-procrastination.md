@@ -221,7 +221,7 @@ Like many study strategies, it can take some experimenting to find the level of 
 							<li>turn your to-do list into a challenge </li>
 							<li>reward yourself after finishing a difficult task </li>
 							<li>“level up” by gradually increasing your study time </li>
-							<li>use apps that track streaks, habits, or progress.</li>
+							<li>use apps such as <a href="https://forestapp.cc/">Forest</a> and <a href="https://habitica.com/static/home">Habitica</a> to track streaks, habits, or progress.</li>
 						</ul>
 					</div>
 				</div>

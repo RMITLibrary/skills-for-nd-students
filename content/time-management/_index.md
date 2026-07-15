@@ -5,7 +5,7 @@ weight: 1      # overall order of sections if you list them on the home page
 <div class="content-856px-max">
     <h1>Time management</h1>
     <div class="landing-intro">
-        <img src="/nd-workshop/images/time-management/section-time-mgmt@2x.png" alt="" />
+        <img src="/skills-for-nd-students/images/time-management/section-time-mgmt@2x.png" alt="" />
         <p class="lead">It’s always tricky to manage your time, whether it be work, study or just everyday life. This module aims to provide strategies, tools and techniques that may assist you in getting the most out of your time and stop you feeling overwhelmed.</p>
     </div>
     <!-- START YouTube Video -->
@@ -19,7 +19,7 @@ weight: 1      # overall order of sections if you list them on the home page
         </button>
         </p>
         <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
-        <div class="accordion-body">
+        <div class="accordion-body"> 
             <p>Hi, and welcome. I'm Josh, an Academic Skills Advisor here in the RMIT Library. I'm neurodivergent myself, and I work closely with neurodivergent students here at RMIT.</p>
             <p>If staying on top of your uni work has ever felt harder for you than it seems to be for everyone else, you're not imagining it, and you're not doing it wrong.</p>
             <p>This online module is about getting organised in a way that suits how your brain actually works: managing your time, your tasks, and your assignments, without pretending to be someone you're not.</p>
@@ -36,7 +36,7 @@ weight: 1      # overall order of sections if you list them on the home page
     <!-- END YouTube Video -->
 	<!-- START safe space -->
 	<div class="safe-space">
-		<img src="/nd-workshop/images/safe-space@2x.png" alt="">
+		<img src="/skills-for-nd-students/images/safe-space@2x.png" alt="">
 		<div class="safe-space-content">
 			<p>This is a safe space, you can pause, skip or come back later. There’s no wrong way to do this.</p>
 			<p>If you feel stressed or overwhelmed at any stage you can access <a href="https://www.rmit.edu.au/up/student-support/student-wellbeing">RMIT Counselling and Wellbeing</a>.</p>
@@ -63,7 +63,7 @@ weight: 1      # overall order of sections if you list them on the home page
 		<li>Dark mode is available in the settings menu at the top right of the screen (look for the gear icon).</li>
     </ul>
 	<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
-        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
+        <img src="/skills-for-nd-students/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
 			<h3>Dig deeper</h3>
             <p>Some sections include optional “Dig deeper” content hidden in accordions. These provide extra context and explanation if you would like more detail. These sections are marked with the heading "Dig deeper" and an image of a dog digging a hole.</p>

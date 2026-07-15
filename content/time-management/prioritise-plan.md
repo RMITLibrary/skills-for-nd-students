@@ -9,7 +9,7 @@ weight: 3
     <p>For this module, we’ve adapted this tool into a <strong>Student Time Matrix</strong>.</p>
 	<h2 id="student-time-matrix">Student Time Matrix</h2>
 	<figure class="wide" aria-labelledby="my-attribution">
-		<img src="/nd-workshop/images/time-management/student-matrix.png" alt="Student time matrix showing four quadrants: Do now, Plan it, Get it done, move on, Let it go" />
+		<img src="/skills-for-nd-students/images/time-management/student-matrix.png" alt="Student time matrix showing four quadrants: Do now, Plan it, Get it done, move on, Let it go" />
 	</figure>
 	<p>The Student Time Matrix is based on two questions:</p>
 	<ol>
@@ -90,7 +90,7 @@ weight: 3
 	</div>
 	<!-- START dig deeper -->
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
-        <img src="/nd-workshop/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
+        <img src="/skills-for-nd-students/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
 			<h2>Dig deeper</h2>
             <p>There’s no single best planning system. The goal is to use tools that make tasks clearer, easier to start, and harder to forget. However, keep in mind that figuring out what works for you can take some experimentation.</p>
@@ -136,7 +136,7 @@ weight: 3
 				<li>Add <strong>due dates</strong> for tasks.</li>
 				</ul>
 				<figure class="wide" aria-labelledby="my-attribution">
-					<img src="/nd-workshop/images/time-management/planner.png" alt="Essay planner board with To do, In progress, Waiting on feedback and Done columns" />
+					<img src="/skills-for-nd-students/images/time-management/planner.png" alt="Essay planner board with To do, In progress, Waiting on feedback and Done columns" />
 				</figure>
 				<!-- END planner content -->
 			</div>

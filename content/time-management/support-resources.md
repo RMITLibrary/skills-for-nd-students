@@ -12,7 +12,7 @@ weight: 10
 			<div class="slide-content">
 			<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-01.jpg" alt="A portrait of Chelsea. An RMIT Student." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-01.jpg" alt="A portrait of Chelsea. An RMIT Student." />
 					<div>
 						<h3 id="top-slide1" tabindex="-1">Using Study Support</h3>
 						<p class="margin-top-zero">Chelsea is looking for some assistance with academic writing and finding reliable information for her assignment, so she’s heading to RMIT’s Study Support drop-in at the Swanston Library.</p>
@@ -25,7 +25,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-02.jpg" alt="The escalators linking level 4 in RMIT's building 12 to level 5." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-02.jpg" alt="The escalators linking level 4 in RMIT's building 12 to level 5." />
 					<div>
 						<p id="top-slide2" class="margin-top-zero">These sessions are held in the Swanston Library. 
 						Chelsea arrives at RMIT’s building 12, level 4 and takes the escalator up to level 5.</p>
@@ -39,7 +39,7 @@ weight: 10
 			<div class="slide-content">
 			<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-03.jpg" alt="Chelsea arriving on level 5 of RMIT's building 12 via escalator." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-03.jpg" alt="Chelsea arriving on level 5 of RMIT's building 12 via escalator." />
 					<div>
 						<p id="top-slide3" class="margin-top-zero">Chelsea arrives at level 5, where the Swanston Library is located. Lifts and stairs are also available nearby.</p>
 					</div>
@@ -51,7 +51,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-04.jpg" alt="Chelsea approaching the Swanston Library's entrance. There is a large illuminated sign that says Swanston Library and a carpeted area leading into the Library." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-04.jpg" alt="Chelsea approaching the Swanston Library's entrance. There is a large illuminated sign that says Swanston Library and a carpeted area leading into the Library." />
 					<div>
 						<p id="top-slide4" class="margin-top-zero">After getting off the escalator, Chelsea sees the entrance to the Swanston Library.</p>
 					</div>
@@ -63,7 +63,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-05.jpg" alt="Chelsea approaches the Concierge desk close to the Library entrance. There is a Concierge staff member wearing a white apron." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-05.jpg" alt="Chelsea approaches the Concierge desk close to the Library entrance. There is a Concierge staff member wearing a white apron." />
 					<div>
 						<p id="top-slide5" class="margin-top-zero">Near the Library entrance, Chelsea sees the Concierge desk Concierge staff who wear “ask me” aprons and can help with any questions about the Library.</p>
 					</div>
@@ -75,7 +75,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-06.jpg" alt="At the Concierge desk, Chelsea speaks with the Concierge staff member, who is points her in the direction of the Study Support Hub." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-06.jpg" alt="At the Concierge desk, Chelsea speaks with the Concierge staff member, who is points her in the direction of the Study Support Hub." />
 					<div>
 						<p id="top-slide6" class="margin-top-zero">The Concierge staff member tells Chelsea where she can find the Study Support Drop-in area, which is very close to the Concierge desk.</p>
 					</div>
@@ -87,7 +87,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-07.jpg" alt="Chelsea speaks with a Student Learning Advisor at the Concierge desk. There is a sign behind them that says 'Study Support Hub' and people sitting at study desks and tables." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-07.jpg" alt="Chelsea speaks with a Student Learning Advisor at the Concierge desk. There is a sign behind them that says 'Study Support Hub' and people sitting at study desks and tables." />
 					<div>
 						<p id="top-slide7" class="margin-top-zero">Next, Chelsea speaks to a Student Learning Advisor who asks her a few questions about the type of assistance she needs. She explains to Chelsea that there are staff members who can help with finding information, academic writing, referencing, planning, time management, maths &amp; science.</p>
 					</div>
@@ -99,7 +99,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-08.jpg" alt="Chelsea is standing up, speaking to an Academic Skills Advisor, who is sitting at a long table, typing on his computer. There is a floor-to-ceiling window that lets in natural light." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-08.jpg" alt="Chelsea is standing up, speaking to an Academic Skills Advisor, who is sitting at a long table, typing on his computer. There is a floor-to-ceiling window that lets in natural light." />
 					<div>
 						<p id="top-slide8" class="margin-top-zero">After waiting for a few minutes, the Student Learning Adivisor introduces Chelsea to an Academic Skills Advisor who can assist her with her questions about academic writing.  </p>
 					</div>
@@ -111,7 +111,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-09.jpg" alt="Chelsea is sitting with the Academic Skills Advisor. They are both looking at Chelseas notebook, discussing her work. Beside them, another Academic Skills Advisor is assisting another student." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-09.jpg" alt="Chelsea is sitting with the Academic Skills Advisor. They are both looking at Chelseas notebook, discussing her work. Beside them, another Academic Skills Advisor is assisting another student." />
 					<div>
 						<p id="top-slide9 margin-top-zero">They spend 30 minutes talking about academic writing and Chelsea’s assignment . Chelsea learns some strategies that she can use for her assignments and some practical tips for her academic writing.</p>
 					</div>
@@ -123,7 +123,7 @@ weight: 10
 			<div class="slide-content">
 				<!-- START content-->
 				<div class="nd-two-col nd-two-col-img-lg nd-two-col-right">
-					<img src="/nd-workshop/images/time-management/vis-story-10.jpg" alt="Chelsea is seated with a Librarian at a long table. Chelsea is explaining something from her notebook." />
+					<img src="/skills-for-nd-students/images/time-management/vis-story-10.jpg" alt="Chelsea is seated with a Librarian at a long table. Chelsea is explaining something from her notebook." />
 					<div>
 						<p id="top-slide10 margin-top-zero">Next, Chelsea speaks to a Librarian who helps her with her questions about finding information. They spend around 30 minutes together and Chelsea learns some great tips for finding information, making a search term and how to evaluate information.   </p>
 					</div>
@@ -193,4 +193,4 @@ weight: 10
 			</div>
 		</div> -->
 </div>
-<script src="/nd-workshop/js/slideshow.js?ver=1.1"></script>
+<script src="/skills-for-nd-students/js/slideshow.js?ver=1.1"></script>

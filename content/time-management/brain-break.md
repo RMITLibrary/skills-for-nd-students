@@ -29,7 +29,7 @@ showAttribution: false
 <script src="https://unpkg.com/@rive-app/canvas@latest"></script>
 <script>
 new rive.Rive({
-  src: '/nd-workshop/riv/form-fidget.riv',
+  src: '/skills-for-nd-students/riv/form-fidget.riv',
   canvas: document.getElementById('riveCanvas'),
   autoplay: true,
   stateMachines: ['State Machine 1'],

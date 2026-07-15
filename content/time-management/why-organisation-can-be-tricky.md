@@ -6,7 +6,7 @@ weight: 2
     <p class="lead">Organisation can feel really hard, especially if you’re neurodivergent (ND), because the brain systems that handle planning, memory, and juggling tasks often work differently. The topics here cover executive functioning, time awareness, prioritisation, working memory, and cognitive load. </p>
     <!-- START two col -->
     <div class="nd-two-col">
-        <img src="/nd-workshop/images/time-management/org-exe-func@2x.png" alt="" />
+        <img src="/skills-for-nd-students/images/time-management/org-exe-func@2x.png" alt="" />
         <div class="nd-two-col-conttent">
             <h2 class="h3">Executive function = your brain’s manager</h2>
             <p>This is your brain’s self-management system for planning, prioritising, and following through. For ND brains, this may work differently. Here are some general examples, which may or may not be true for you:</p>
@@ -45,7 +45,7 @@ weight: 2
     <!-- END table -->
     <!-- START two col -->
     <div class="nd-two-col nd-two-col-top margin-top-xl">
-        <img src="/nd-workshop/images/time-management/org-work-memory@2x.png" alt="" />
+        <img src="/skills-for-nd-students/images/time-management/org-work-memory@2x.png" alt="" />
         <div class="nd-two-col-conttent">
             <h2 class="h3">Working memory = your mental scratchpad</h2>
             <p>It holds information for a short time while you use it.</p>
@@ -56,7 +56,7 @@ weight: 2
     <!-- END two col -->
     <!-- START two col -->
     <div class="nd-two-col">
-        <img src="/nd-workshop/images/time-management/org-cog-load@2x.png" alt="" />
+        <img src="/skills-for-nd-students/images/time-management/org-cog-load@2x.png" alt="" />
         <div class="nd-two-col-conttent">
             <h2 class="h3">Cognitive load = your brain’s bandwidth</h2>
             <p>It’s how much your brain can handle at once.</p>
@@ -69,7 +69,7 @@ weight: 2
     <p>Later in this module, we’ll share practical strategies and tools to help you manage your time, tasks, and study in ways that work for your brain.</p>
     <!-- START dig deeper -->
     <div class="nd-two-col nd-two-col-right nd-two-col-img-md">
-        <img src="/nd-workshop/images/dig-deeper@2x.png"  alt="Dog digging a hole" aria-labelledby="my-attribution"  />
+        <img src="/skills-for-nd-students/images/dig-deeper@2x.png"  alt="Dog digging a hole" aria-labelledby="my-attribution"  />
         <div class="nd-two-col-conttent">
             <h2>Dig deeper</h2>
             <p class="lead">Keen to learn more? Let’s dig deeper into executive function, working memory and cognitive load.</p>

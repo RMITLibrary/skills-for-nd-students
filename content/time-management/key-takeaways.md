@@ -11,17 +11,17 @@ weight: 9
 		<li>Effective planning happens at different levels: big picture goals, weekly priorities, and immediate next actions.</li>
 		<li>Motivation can be supported through strategies such as creating urgency, making tasks more enjoyable, gamifying progress, and using body doubling.</li>
 		<li>Progress is about finding strategies that work for your brain, not achieving perfection.</li>
-		<li><strong>Need more help right now?</strong> Visit the <strong><a href="/nd-workshop/time-management/support-resources/">Support and resources</a></strong> page for study, wellbeing and accessibility support.</strong></li>
+		<li><strong>Need more help right now?</strong> Visit the <strong><a href="/skills-for-nd-students/time-management/support-resources/">Support and resources</a></strong> page for study, wellbeing and accessibility support.</strong></li>
 	</ul>
 	<h2 class="centre">What’s next:</h2>
 	<div class="home-modules modules-2-up">	
-		<a href="/nd-workshop/master-group-work">
-			<img src="/nd-workshop/images/home/home-mod-4.png" alt="">
+		<a href="/skills-for-nd-students/master-group-work">
+			<img src="/skills-for-nd-students/images/home/home-mod-4.png" alt="">
 			<h3 class="h4 link-large">Master group work</h3>
 			<p>Develop skills for collaborating effectively, communicating clearly, and navigating group projects.</p>
 		</a>
-		<a href="/nd-workshop/memory-focus">
-			<img src="/nd-workshop/images/home/home-mod-8.png" alt="">
+		<a href="/skills-for-nd-students/memory-focus">
+			<img src="/skills-for-nd-students/images/home/home-mod-8.png" alt="">
 			<h3 class="h4 link-large">Memory and focus</h3>
 			<p>Strengthen your concentration and memory with strategies designed for real study situations.</p>
 		</a>

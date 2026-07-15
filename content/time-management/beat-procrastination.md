@@ -34,7 +34,7 @@ weight: 7
     <!-- END YouTube Video -->
 	<!-- START Pomodoro -->
 	<div class="nd-two-col nd-two-col-right margin-bottom-zero">
-		<img src="/nd-workshop/images/time-management/procrast-tomato@2x.png" alt="" />
+		<img src="/skills-for-nd-students/images/time-management/procrast-tomato@2x.png" alt="" />
 		<div class="margin-top-zero">
 			<h2>Pomodoro technique</h2>
 			<p>At the gym, many people use interval training to improve fitness. They exercise for a set amount of time, rest, and then start again.</p>
@@ -65,7 +65,7 @@ weight: 7
 	<!-- END Pomodoro -->
 	<!-- START Body doubling -->
 	<div class="nd-two-col nd-two-col-img-md nd-two-col-right margin-bottom-zero margin-top-xl">
-		<img src="/nd-workshop/images/time-management/procrast-body-doubling@2x.png" alt="" />
+		<img src="/skills-for-nd-students/images/time-management/procrast-body-doubling@2x.png" alt="" />
 		<div class="margin-top-zero">
 			<h2>Body doubling</h2>
 			<p>The basic idea of body doubling is, while you work on a task, another person is nearby working on their own task. You’re not collaborating or working together — their presence simply helps you stay engaged and on track.</p>
@@ -94,7 +94,7 @@ weight: 7
 <!-- END Body doubling -->
 <!-- START five minute rule -->
 	<div class="nd-two-col nd-two-col-right margin-bottom-zero margin-top-xl">
-		<img src="/nd-workshop/images/time-management/procrast-five-minute@2x.png" alt="" />
+		<img src="/skills-for-nd-students/images/time-management/procrast-five-minute@2x.png" alt="" />
 		<div class="margin-top-zero">
 			<h2>5-minute rule</h2>
 			<p>Do you ever feel like you could sit down and do some seriously productive work… but you just can’t seem to make a start? The 5-minute rule is designed to help you take that first step.</p>
@@ -126,7 +126,7 @@ weight: 7
 <!-- END five minute rule -->
 <!-- START urgency -->
 	<div class="nd-two-col nd-two-col-right nd-two-col-top margin-bottom-zero margin-top-xl">
-		<img src="/nd-workshop/images/time-management/procrast-urgency@2x.png" alt="" />
+		<img src="/skills-for-nd-students/images/time-management/procrast-urgency@2x.png" alt="" />
 		<div class="margin-top-zero">
 			<h2>Create urgency</h2>
 			<p>Some neurodivergent students find it easier to focus when there is a clear sense of urgency. If this sounds familiar, you could try creating your own deadlines to help keep yourself on track.</p>
@@ -159,7 +159,7 @@ Like many study strategies, it can take some experimenting to find the level of 
 <!-- END urgency -->
 <!-- START make it pleasant -->
 	<div class="nd-two-col nd-two-col-right nd-two-col-top margin-bottom-zero margin-top-xl">
-		<img src="/nd-workshop/images/time-management/procrast-pleasant@2x.png" alt="" />
+		<img src="/skills-for-nd-students/images/time-management/procrast-pleasant@2x.png" alt="" />
 		<div class="margin-top-zero">
 			<h2>Make it pleasant</h2>
 			<p>A lot of the time, tasks we avoid are things that feel under stimulating, boring, mentally draining, emotionally taxing, or physically unpleasant.</p>
@@ -198,7 +198,7 @@ Like many study strategies, it can take some experimenting to find the level of 
 <!-- END make it pleasant -->
 <!-- START Gamify -->
 	<div class="nd-two-col nd-two-col-right margin-bottom-zero margin-top-xl">
-		<img src="/nd-workshop/images/time-management/procrast-gamify@2x.png" alt="" />
+		<img src="/skills-for-nd-students/images/time-management/procrast-gamify@2x.png" alt="" />
 		<div class="margin-top-zero">
 			<h2>Gamify it</h2>
 			<p>Some people enjoy visually tracking their progress. Crossing things off a list, filling in habit trackers, or watching progress bars move can create a sense of momentum and accomplishment.</p>

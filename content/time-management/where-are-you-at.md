@@ -7,7 +7,7 @@ weight: 1
     <!-- START quiz -->
     <div section="quiz" class="quiz-container">
 		<div class="nd-two-col nd-two-col-right nd-two-col-img-md margin-top-sm">
-			<img src="/nd-workshop/images/time-management/where-you-at.png" class="hide-sm" alt="" />
+			<img src="/skills-for-nd-students/images/time-management/where-you-at.png" class="hide-sm" alt="" />
 			<div class="nd-two-col-content">
 				<h2 class="title-icon quiz-icon">Self assessment quiz</h2>
 				<p>Read each statement and rate how often it applies to you. <!-- Add up your scores within each group of three questions to see where to focus. --></p>
@@ -368,4 +368,4 @@ weight: 1
     <p>For many neurodivergent students, the issue is not motivation — common systems and expectations often do not match how their brains work.</p>
 	<p>Small changes can make a big difference.</p>
 </div>
-<script src="/nd-workshop/js/quiz-results-end.js?ver=1.7"></script>
+<script src="/skills-for-nd-students/js/quiz-results-end.js?ver=1.7"></script>

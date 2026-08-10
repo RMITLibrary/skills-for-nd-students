@@ -48,7 +48,7 @@
 
 .top-navigation .dropdown-menu a,
 .top-navigation .dropdown-menu a:hover {
-  color: #000054;
+  color:#000054;
   display: block;
   padding: 0.5rem 1rem;
 }
@@ -61,4 +61,20 @@
 .dropdown-item[aria-current="page"] {
   font-weight: 600;
   background-color: #f2f5ff !important; /* light, low‑distraction highlight */
+}
+
+@include color-mode(dark) {
+	//focus dark mode
+	.top-navigation .dropdown-menu a,
+  .top-navigation .dropdown-menu a:hover {
+    color: $link-color-dark;
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  .dropdown-item.active,
+  .dropdown-item[aria-current="page"] {
+    font-weight: 600;
+    background-color: $underlay-selected-dark !important; /* light, low‑distraction highlight */
+  }
 }

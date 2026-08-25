@@ -6,7 +6,7 @@ weight: 1
     <p class="lead">This is a short self-assessment to help you understand your current time management strengths and challenges. There are no right or wrong answers.</p>
     <!-- START quiz -->
     <div section="quiz" class="quiz-container">
-		<div class="nd-two-col nd-two-col-right nd-two-col-img-md margin-top-sm">
+		<div class="nd-two-col nd-two-col-right nd-two-col-img-md margin-top-sm margin-bottom-sm">
 			<img src="/skills-for-nd-students/images/time-management/where-you-at.png" class="hide-sm" alt="" />
 			<div class="nd-two-col-content">
 				<h2 class="title-icon quiz-icon">Self assessment quiz</h2>
@@ -16,7 +16,7 @@ weight: 1
 		</div>
 		<!-- START set 1 -->
 		<div id="set1" class="quiz-page">
-		<h3>Procrastination</h3>
+		<h3 class="margin-top-zero">Procrastination</h3>
 		<div class="likert-question">
 			<label for="set1-q1" class="form-label lead">1. How often do you delay starting important tasks until the last minute?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
@@ -76,7 +76,7 @@ weight: 1
 		<!-- END set 1 -->
 		<!-- START set 2 -->
 		<div id="set2" class="quiz-page" hidden>
-		<h3>Distraction</h3>
+		<h3 class="margin-top-zero">Distraction</h3>
 		<div class="likert-question">
 			<label for="set2-q1" class="form-label lead">4. How frequently do you get distracted by social media while studying?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
@@ -138,7 +138,7 @@ weight: 1
 		<!-- END set 2 -->
 		<!-- START set 3 -->
 		<div id="set3" class="quiz-page" hidden>
-		<h3>Scheduling</h3>
+		<h3 class="margin-top-zero">Scheduling</h3>
 		<div class="likert-question">
 			<label for="set3-q1" class="form-label lead">7. How often do you skip planning your daily tasks?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
@@ -200,7 +200,7 @@ weight: 1
 		<!-- END set 3 -->
 		<!-- START set 4 -->
 		<div id="set4" class="quiz-page" hidden>
-		<h3>Over-committing</h3>
+		<h3 class="margin-top-zero">Over-committing</h3>
 		<div class="likert-question">
 			<label for="set4-q1" class="form-label lead">10. How often do you accept new tasks without considering your current workload?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"

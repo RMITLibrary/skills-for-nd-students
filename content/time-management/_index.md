@@ -20,13 +20,15 @@ weight: 1      # overall order of sections if you list them on the home page
         </p>
         <div id="Transcript-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Transcript-headingTwo">
         <div class="accordion-body"> 
-            <p>Hi, and welcome. I'm Josh, an Academic Skills Advisor here in the RMIT Library. I'm neurodivergent myself, and I work closely with neurodivergent students here at RMIT.</p>
+			<p class="h4">Hi, and welcome.</p>
+            <p>I'm Josh, an Academic Skills Advisor here in the RMIT Library. I'm neurodivergent myself, and I work closely with neurodivergent students here at RMIT.</p>
             <p>If staying on top of your uni work has ever felt harder for you than it seems to be for everyone else, you're not imagining it, and you're not doing it wrong.</p>
             <p>This online module is about getting organised in a way that suits how your brain actually works: managing your time, your tasks, and your assignments, without pretending to be someone you're not.</p>
-            <p>Here's how it works. Just below this video there's a map of everything that's covered, so you can see it all at a glance and jump to whatever's useful. You don't have to go through it in order, and you don't have to do all of it. Start to finish it takes around 30 to 45 minutes, but it's built for dipping in and out. Pause it, skip ahead, come back next week.</p>
-            <p>There's no wrong way to do this.</p>
+            <p class="h4">Here's how it works.</p>
+			<p> Just below this video there's a map of everything that's covered, so you can see it all at a glance and jump to whatever's useful. You don't have to go through it in order, and you don't have to do all of it. Start to finish it takes around 30 to 45 minutes, but it's built for dipping in and out. Pause it, skip ahead, come back next week.</p>
+            <p class="h4">There's no wrong way to do this.</p>
             <p>Most sections have two levels: a short overview with the essentials, and a deeper dive you can open if you want more detail. Open them when they help, skip them when they don't.</p>
-            <p>One more thing before you start. University can be harder when you're neurodivergent, and that is not a personal failing. So if things feel tough, free counselling is available here at RMIT, and reaching out for it is a sign of strength!</p>
+            <p>One more thing before you start. University can be harder when you're neurodivergent, and that is <strong>not</strong> a personal failing. So if things feel tough, free counselling is available here at RMIT, and reaching out for it is a sign of strength!</p>
             <p>Right, let's get into it. And remember folks: progress, not perfection. Take what works for you and leave the rest.</p>
             </div>
         </div>

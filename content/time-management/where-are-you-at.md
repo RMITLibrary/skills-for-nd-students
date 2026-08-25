@@ -50,7 +50,7 @@ weight: 1
 			</div>
 		</div>
 		<div class="likert-question">
-			<label for="set1-q3" class="form-label lead">3. How often do you end up rushing to complete assignments due to starting late?</label>
+			<label for="set1-q3" class="form-label lead">3. How often do you start assignments late and then rush to complete them?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
 				id="set1-q3" name="set1-q3">
 			<div class="range-scale">
@@ -138,7 +138,7 @@ weight: 1
 		<!-- END set 2 -->
 		<!-- START set 3 -->
 		<div id="set3" class="quiz-page" hidden>
-		<h3>Poor scheduling</h3>
+		<h3>Scheduling</h3>
 		<div class="likert-question">
 			<label for="set3-q1" class="form-label lead">7. How often do you skip planning your daily tasks?</label>
 			<input type="range" class="form-range" min="1" max="5" step="1"
@@ -269,19 +269,19 @@ weight: 1
 					<div class="card-body">
 						<h3 class="card-title ">Procrastination</h3>
 						<div class="result-range" data-range="minimal" hidden>
-							<h4>Minimal — this is a strength</h4>
+							<h4>A strength to maintain</h4>
 							<p>Minimal procrastination. You manage your time effectively.</p>
 						</div>
 						<div class="result-range" data-range="low" hidden>
-							<h4>Low — you’re doing okay</h4>
+							<h4>Generally working well</h4>
 							<p>Low procrastination. Slight tendencies, but generally proactive.</p>
 						</div>
 						<div class="result-range" data-range="moderate" hidden>
-							<h4>Moderate — room to grow</h4>
+							<h4>Some strategies may help</h4>
 							<p>Moderate procrastination. Aim to improve your initiation of tasks.</p>
 						</div>
 						<div class="result-range" data-range="high" hidden>
-							<h4>High — focus area</h4>
+							<h4>A useful focus area</h4>
 							<p>High procrastination. Consider strategies to start tasks earlier.</p>
 						</div>
 					</div>
@@ -292,19 +292,19 @@ weight: 1
 					<div class="card-body">
 						<h3 class="card-title ">Distraction</h3>
 						<div class="result-range" data-range="minimal" hidden>
-							<h4>Minimal — this is a strength</h4>
+							<h4>A strength to maintain</h4>
 							<p>Rarely distracted. You maintain strong concentration skills.</p>
 						</div>
 						<div class="result-range" data-range="low" hidden>
-							<h4>Low — you’re doing okay</h4>
+							<h4>Generally working well</h4>
 							<p>Occasionally distracted. Minor distractions, but mostly focused.</p>
 						</div>
 						<div class="result-range" data-range="moderate" hidden>
-							<h4>Moderate — room to grow</h4>
+							<h4>Some strategies may help</h4>
 							<p>Moderately distracted. Work on maintaining focus during study times.</p>
 						</div>
 						<div class="result-range" data-range="high" hidden>
-							<h4>High — focus area</h4>
+							<h4>A useful focus area</h4>
 							<p>Frequently distracted. Identify ways to minimise interruptions.</p>
 						</div>
 					</div>
@@ -313,22 +313,22 @@ weight: 1
 				<!-- START card -->
 				<div id="result-scheduling" hidden class="card result-set">
 					<div class="card-body">
-						<h3 class="card-title ">Poor scheduling</h3>
+						<h3 class="card-title ">Scheduling</h3>
 						<div class="result-range" data-range="minimal" hidden>
-							<h4>Minimal — this is a strength</h4>
+							<h4>A strength to maintain</h4>
 							<p>Effective scheduling. Your task management is well-structured.</p>
 						</div>
 						<div class="result-range" data-range="low" hidden>
-							<h4>Low — you’re doing okay</h4>
+							<h4>Generally working well</h4>
 							<p>Some scheduling issues. Generally organised, with room for improvement.</p>
 						</div>
 						<div class="result-range" data-range="moderate" hidden>
-							<h4>Moderate — room to grow</h4>
+							<h4>Some strategies may help</h4>
 							<p>Moderate scheduling issues. Improve your planning and allocation tactics.</p>
 						</div>
 						<div class="result-range" data-range="high" hidden>
-							<h4>High — focus area</h4>
-							<p>Poor scheduling. Develop a more structured plan for your tasks.</p>
+							<h4>A useful focus area</h4>
+							<p>Scheduling. Develop a more structured plan for your tasks.</p>
 						</div>
 					</div>
 				</div>
@@ -338,19 +338,19 @@ weight: 1
 					<div class="card-body">
 						<h3 class="card-title ">Over-committing</h3>
 						<div class="result-range" data-range="minimal" hidden>
-							<h4>Minimal — this is a strength</h4>
+							<h4>A strength to maintain</h4>
 							<p>Well-balanced commitments. You effectively manage your responsibilities.</p>
 						</div>
 						<div class="result-range" data-range="low" hidden>
-							<h4>Low — you’re doing okay</h4>
+							<h4>Generally working well</h4>
 							<p>Occasionally over-committed. Rarely take on too much but stay aware.</p>
 						</div>
 						<div class="result-range" data-range="moderate" hidden>
-							<h4>Moderate — room to grow</h4>
+							<h4>Some strategies may help</h4>
 							<p>Moderately over-committed. Balance your workload more effectively.</p>
 						</div>
 						<div class="result-range" data-range="high" hidden>
-							<h4>High — focus area</h4>
+							<h4>A useful focus area</h4>
 							<p>Often over-committed. Consider prioritising and setting limits on commitments.</p>
 						</div>
 					</div>
@@ -368,4 +368,4 @@ weight: 1
     <p>For many neurodivergent students, the issue is not motivation — common systems and expectations often do not match how their brains work.</p>
 	<p>Small changes can make a big difference.</p>
 </div>
-<script src="/skills-for-nd-students/js/quiz-results-end.js?ver=1.7"></script>
+<script src="/skills-for-nd-students/js/quiz-results-end.js?ver=1.8"></script>

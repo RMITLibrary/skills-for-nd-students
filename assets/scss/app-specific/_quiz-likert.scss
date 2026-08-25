@@ -111,7 +111,8 @@
 }
 
 /* Button on the right */
-.progress-next-question .next-question {
+.progress-next-question .next-question, 
+.progress-next-question .next-question-primary {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -134,6 +135,24 @@
 		}
 	}
 } 
+
+/* 
+//Uncomment to nchange button to navy
+.progress-next-question .next-question {
+	
+	background-color: $rmit-blue;
+	border-color: $rmit-blue;
+	color: $white;
+
+	&::after { 
+		@include carat-white;
+	}
+} 
+
+.progress-next-question .next-question:hover {	
+	color: $white;
+}  
+*/
 
 /* Button on the right */
 .progress-next-question .prev-question {

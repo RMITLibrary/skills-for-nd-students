@@ -13,9 +13,6 @@
   {{ .Content }}
 </article>
 
-
-<!-- <p class="content-856px-max">DEBUG: Section = {{ .Section }}</p> -->
-
 <nav class="btn-nav-container content-856px-max" aria-label="Previous and next buttons">
   {{/* Get the current section (e.g. "time-management") and current page context */}}
   {{ $section := .CurrentSection }}
@@ -71,4 +68,6 @@
     {{ end }}
   {{ end }}
 </nav>
+
+{{  partial "module-contents-nav.html" . }}
 {{ end }}

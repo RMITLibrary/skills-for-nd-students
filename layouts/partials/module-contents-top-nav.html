@@ -11,13 +11,34 @@
 {{ $total := add (len $pages) 1 }}
 
 {{ if gt $total 1 }}
-<nav class="module-nav margin-top-xl content-856px-max">
-  <ul class="link-list">
+<li class="nav-item dropdown me-2">
+  <a
+    href="#"
+    class="nav-link dropdown-toggle"
+    id="module-nav-toggle"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Module contents
+  </a>
+  <ul id="module-nav" class="dropdown-menu" aria-labelledby="module-nav-toggle">
     {{ $isBaseCurrent := eq $section.RelPermalink $.RelPermalink }}
+    <li>
+      <a
+        class="dropdown-item{{ if $isBaseCurrent }} active{{ end }}"
+        href="{{ $section.RelPermalink }}"
+        {{ if $isBaseCurrent }} aria-current="page"{{ end }}
+      >
+        {{ $section.Title }}
+      </a>
+    </li>
     {{ range $pages }}
       {{ $isCurrent := eq .RelPermalink $.RelPermalink }}
-      <li class="{{ if $isCurrent }} active{{ end }}">
-        <a href="{{ .RelPermalink }}"
+      <li>
+        <a
+          class="dropdown-item{{ if $isCurrent }} active{{ end }}"
+          href="{{ .RelPermalink }}"
           {{ if $isCurrent }} aria-current="page"{{ end }}
         >
           {{ .Title }}
@@ -25,5 +46,5 @@
       </li>
     {{ end }}
   </ul>
-</nav>
+</li>
 {{ end }}

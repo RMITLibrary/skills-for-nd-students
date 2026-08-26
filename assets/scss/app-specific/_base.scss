@@ -74,6 +74,46 @@ article:last-child {
     }
 }
 
+//module nav beneath prev/next buttons - need active state
+
+.module-nav .link-list li.active {
+	margin-left: 2rem;
+
+	::before {
+		content: none;
+	}
+
+	a {
+		color: $body-color;
+		padding: 0.25rem 0.5rem;
+		border-radius: 0.25rem;
+		background-color: $underlay-grey;
+	}
+
+	a:hover {
+		text-decoration: none !important;
+		color: $body-color;
+	}
+}
+
+.module-nav .link-list li.active::before {
+		content: none;
+}
+
+// Dark mode
+@include color-mode(dark) {
+	.module-nav .link-list li.active {
+
+	a {
+		color: $body-color-dark;
+		background-color: $underlay-grey-dark;
+	}
+
+	a:hover { color: $body-color-dark; }
+}
+}
+
+
 //Image stuff - sort it out
 // Dark mode
 @include color-mode(dark) {

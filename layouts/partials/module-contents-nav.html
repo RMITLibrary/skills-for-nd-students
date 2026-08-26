@@ -5,8 +5,8 @@
   {{ $section = .Section }}
 {{ end }}
 
-{{/* All child pages of this module, ordered */}}
-{{ $pages := where $section.RegularPages.ByWeight "Params.excludeFromProgress" "ne" true }}
+{{/* All child pages of this module, ordered. In this context we want to include brain break */}}
+{{ $pages := $section.RegularPages.ByWeight }}
 {{/* Total items in the menu: base module page + child pages */}}
 {{ $total := add (len $pages) 1 }}
 

@@ -1,6 +1,20 @@
 ---
 title: "Key takeaways and what's next"
 weight: 9
+after_main: |
+  <h2 class="centre">What’s next:</h2>
+  <div class="home-modules modules-2-up">	
+  <a href="/skills-for-nd-students/master-group-work">
+  <img src="/skills-for-nd-students/images/home/home-mod-4.png" alt="">
+  <h3 class="h4 link-large">Master group work</h3>
+  <p>Develop skills for collaborating effectively, communicating clearly, and navigating group projects.</p>
+  </a>
+  <a href="/skills-for-nd-students/memory-focus">
+  <img src="/skills-for-nd-students/images/home/home-mod-8.png" alt="">
+  <h3 class="h4 link-large">Memory and focus</h3>
+  <p>Strengthen your concentration and memory with strategies designed for real study situations.</p>
+  </a>  
+  </div>
 ---
 <div class="content-856px-max"> 
 	<p class="lead">Congratulations on working through this module, however worked best for you! To finish, here are some final key takeaways and a brief overview of the other modules that you might check out next.</p>
@@ -13,17 +27,5 @@ weight: 9
 		<li>Progress is about finding strategies that work for your brain, not achieving perfection.</li>
 		<li><strong>Need more help right now?</strong> Visit the <strong><a href="/skills-for-nd-students/time-management/support-resources/">Support and resources</a></strong> page for study, wellbeing and accessibility support.</strong></li>
 	</ul>
-	<h2 class="centre">What’s next:</h2>
-	<div class="home-modules modules-2-up">	
-		<a href="/skills-for-nd-students/master-group-work">
-			<img src="/skills-for-nd-students/images/home/home-mod-4.png" alt="">
-			<h3 class="h4 link-large">Master group work</h3>
-			<p>Develop skills for collaborating effectively, communicating clearly, and navigating group projects.</p>
-		</a>
-		<a href="/skills-for-nd-students/memory-focus">
-			<img src="/skills-for-nd-students/images/home/home-mod-8.png" alt="">
-			<h3 class="h4 link-large">Memory and focus</h3>
-			<p>Strengthen your concentration and memory with strategies designed for real study situations.</p>
-		</a>
-	</div>
+	
 </div>

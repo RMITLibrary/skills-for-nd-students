@@ -32,6 +32,8 @@
 			</div>
 		</main>
 
+		{{ block "after-main" . }}{{ end }}
+
 		{{ if ne .Params.showAttribution false }}
 		<div class="container">
 			<p class="content-856px-max small attribution margin-top-md" id="my-attribution">

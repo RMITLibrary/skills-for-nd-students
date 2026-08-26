@@ -4,12 +4,10 @@ weight: 3
 ---
 <div class="content-856px-max">
     <p class="lead"> Do you ever feel like every task has to be done right now? Many students feel this way — it’s not just a neurodivergent thing. When everything feels urgent, it’s hard to know where to start.</p>
-    <h2>The Eisenhower Matrix</h2>
-    <p><strong>The Eisenhower Matrix</strong> is a simple tool that helps people sort their priorities. It shows us that some things do need attention now, while others can wait. Some tasks need our full effort, and others are fine being “good enough”, not perfect.</p>
-    <p>For this module, we’ve adapted this tool into a <strong>Student Time Matrix</strong>.</p>
-	<h2 id="student-time-matrix">Student Time Matrix</h2>
+    <h2>The Student Time Matrix</h2>
+    <p><strong>The Student Time Matrix</strong> is a simple tool that helps people sort their priorities. It shows us that some things do need attention now, while others can wait. Some tasks need our full effort, and others are fine being “good enough”, not perfect.</p>
 	<figure class="wide" aria-labelledby="my-attribution">
-		<img src="/skills-for-nd-students/images/time-management/student-matrix.png" alt="Student time matrix showing four quadrants: Do now, Plan it, Get it done, move on, Let it go" />
+		<img src="/skills-for-nd-students/images/time-management/student-matrix-new.png" alt="Student time matrix showing four quadrants: Do now, Plan it, Get it done, move on, Let it go" />
 	</figure>
 	<p>The Student Time Matrix is based on two questions:</p>
 	<ol>

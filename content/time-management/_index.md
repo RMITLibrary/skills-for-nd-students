@@ -1,6 +1,14 @@
 ---
 title: "Time management"
 weight: 1      # overall order of sections if you list them on the home page
+after_main: |
+  <div class="safe-space">
+  <img src="/skills-for-nd-students/images/safe-space@2x.png" alt="">
+  <div class="safe-space-content">
+  <p>This is a safe space, you can pause, skip or come back later. There’s no wrong way to do this.</p>
+  <p>If you feel stressed or overwhelmed at any stage you can access <a href="https://www.rmit.edu.au/up/student-support/student-wellbeing">RMIT Counselling and Wellbeing</a>.</p>
+  </div>
+  </div>
 ---
 <div class="content-856px-max">
     <h1>Time management</h1>
@@ -36,15 +44,12 @@ weight: 1      # overall order of sections if you list them on the home page
     <!-- END accordion item -->
     </figure>
     <!-- END YouTube Video -->
-	<!-- START safe space -->
-	<div class="safe-space">
-		<img src="/skills-for-nd-students/images/safe-space@2x.png" alt="">
-		<div class="safe-space-content">
-			<p>This is a safe space, you can pause, skip or come back later. There’s no wrong way to do this.</p>
-			<p>If you feel stressed or overwhelmed at any stage you can access <a href="https://www.rmit.edu.au/up/student-support/student-wellbeing">RMIT Counselling and Wellbeing</a>.</p>
-		</div>
-	</div>
-	<!-- END safe space-->
+    <!-- START What this module contains -->
+	<h2>Explore the module</h2>
+	<p>This module should take between <strong>35–45 minutes</strong> to complete.</p>
+	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you.</p>
+	<span id='my-nav-maker'></span>
+	<!-- END What this module contains -->
     <!-- START what to expect -->
     <h2>What to expect from this module</h2>
     <ol>
@@ -69,12 +74,12 @@ weight: 1      # overall order of sections if you list them on the home page
         <div class="nd-two-col-content">
 			<h3>Dig deeper</h3>
             <p>Some sections include optional “Dig deeper” content hidden in accordions. These provide extra context and explanation if you would like more detail. These sections are marked with the heading "Dig deeper" and an image of a dog digging a hole.</p>
-            <p>Here's an example:</p>
         </div>
     </div>
+     <p>Ok, let’s get started with a small piece of self assessment.</p>
     <!-- END How this works -->
 	<!-- START dig deeper examople -->
-	<div class="accordion" id="accordionExample">
+	<!--<div class="accordion" id="accordionExample">
 		<div class="accordion-item">
 			<h3 class="accordion-header" id="headingOne">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -87,13 +92,15 @@ weight: 1      # overall order of sections if you list them on the home page
 			</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- END dig deeper examople -->
-	<!-- START What this module contains -->
-	<h2>What this module contains</h2>
-	<p>This module should take between <strong>35–45 minutes</strong> to complete.</p>
-	<p>Note, timings are approximate, you may want to spend longer on some pages and speed through others, it’s up to you.</p>
-	<span id='my-nav-maker'></span>
-	<p>Ok, let’s get started with a small piece of self assessment.</p>
-	<!-- END What this module contains -->
 </div>
+<!-- START safe space -->
+	<!-- <div class="safe-space">
+		<img src="/skills-for-nd-students/images/safe-space@2x.png" alt="">
+		<div class="safe-space-content">
+			<p>This is a safe space, you can pause, skip or come back later. There’s no wrong way to do this.</p>
+			<p>If you feel stressed or overwhelmed at any stage you can access <a href="https://www.rmit.edu.au/up/student-support/student-wellbeing">RMIT Counselling and Wellbeing</a>.</p>
+		</div>
+	</div> -->
+	<!-- END safe space-->

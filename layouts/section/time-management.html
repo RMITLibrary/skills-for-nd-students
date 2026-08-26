@@ -43,3 +43,11 @@
   {{ end }}
 </nav>
 {{ end }}
+
+{{ define "after-main" }}
+    {{ with .Params.after_main }}
+        <section class="content-856px-max page-after-nav">
+            {{ . | markdownify }}
+        </section>
+    {{ end }}
+{{ end }}

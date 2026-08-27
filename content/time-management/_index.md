@@ -73,7 +73,7 @@ after_main: |
         <img src="/skills-for-nd-students/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">
 			<h3>Dig deeper</h3>
-            <p>Some sections include optional “Dig deeper” content hidden in accordions. These provide extra context and explanation if you would like more detail. These sections are marked with the heading "Dig deeper" and an image of a dog digging a hole.</p>
+            <p>Some sections include optional “Dig deeper” content hidden in <strong>drop down panels</strong>. These provide extra context and explanation if you would like more detail. These sections are marked with the heading "Dig deeper" and an image of a dog digging a hole.</p>
         </div>
     </div>
      <p>Ok, let’s get started with a small piece of self assessment.</p>

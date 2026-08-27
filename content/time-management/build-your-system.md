@@ -265,8 +265,8 @@ weight: 8
 			<!-- END tools-externalising -->
             <!-- START info-pomodoro -->
 			<div id="info-pomodoro" class="info-technique">
+				<img src="/skills-for-nd-students/images/time-management/procrast-tomato@2x.png" alt="" class="nd-img-float margin-top-md" />
 				<h3><div class="little-heading">Things to remember about</div> The pomodoro technique</h3>
-				<img src="/skills-for-nd-students/images/time-management/procrast-tomato@2x.png" alt="" class="nd-img-float" />
 				<ul>
 				<li>Remove distractions from your study area.</li>
 				<li>Set yourself one small goal for the each interval. For example, read one article, write one paragraph, etc.</li>
@@ -280,8 +280,8 @@ weight: 8
 			<!-- END info-pomodoro -->
 			<!-- START info-body-doubling -->
 			<div id="info-body-doubling" class="info-technique">
+				<img src="/skills-for-nd-students/images/time-management/procrast-body-doubling@2x.png" alt="" class="nd-img-float-lg margin-top-md" />
 				<h3><div class="little-heading">Things to remember about</div> Body doubling</h3>
-				<img src="/skills-for-nd-students/images/time-management/procrast-body-doubling@2x.png" alt="" class="nd-img-float" />
 				<ul>
 				<li>Try studying in the same room as a friend, with both of you working on your own tasks.</li>
 				<li>You can also try body doubling in a public space like a library or a cafe.</li>
@@ -292,6 +292,7 @@ weight: 8
 			<!-- END info-body-doubling -->
 			<!-- START info-prioritisation -->
 			<div id="info-prioritisation" class="info-technique">
+			<img src="/skills-for-nd-students/images/time-management/build/prioritise.png" alt="" class="nd-img-float margin-top-md" />
 			<h3><div class="little-heading">Things to remember about</div> Prioritisation</h3>
 			<p>We have adapted the Eisenhow Matrix into a matrix called the Student time matrix. It can help you to decide which tasks to:</p>
 			<ul>
@@ -325,7 +326,7 @@ weight: 8
 			<!-- START info-5-minute-rule -->
 			<div id="info-5-minute-rule" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> The 5-minute rule</h3>
-			<img src="/skills-for-nd-students/images/time-management/procrast-five-minute@2x.png" alt="" class="nd-img-float" />
+			<img src="/skills-for-nd-students/images/time-management/procrast-five-minute@2x.png" alt="" class="nd-img-float-lg" />
 			<ul>
 			<li>Select a task you are having trouble getting started on. Make sure it’s something small.</li>
 			<li>Remove distractions from your study area.</li>
@@ -338,8 +339,8 @@ weight: 8
 			<!-- END info-5-minute-rule -->
 			<!-- START info-make-it-pleasant -->
 			<div id="info-make-it-pleasant" class="info-technique">
+			<img src="/skills-for-nd-students/images/time-management/procrast-pleasant@2x.png" alt="" class="nd-img-float-lg margin-top-md" />
 			<h3><div class="little-heading">Things to remember about</div> The make it pleasant technique</h3>
-			<img src="/skills-for-nd-students/images/time-management/procrast-pleasant@2x.png" alt="" class="nd-img-float" />
 			<p>Pair tasks that you have been avoiding or that you don't enjoy very much with things that you do enjoy. For example:</p>
 			<ul>
 			<li>Take your laptop to a park to read an academic articles.</li>
@@ -355,7 +356,7 @@ weight: 8
 			<!-- START info-gamify-it -->
 			<div id="info-gamify-it" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> The gamify it technique</h3>
-			<img src="/skills-for-nd-students/images/time-management/procrast-gamify@2x.png" alt="" class="nd-img-float" />
+			<img src="/skills-for-nd-students/images/time-management/procrast-gamify@2x.png" alt="" class="nd-img-float-lg" />
 			<p>If you the sort of person who loves a challenge, then gamifying your studies could work for you. Here are some things you could try:</p>
 			<ul>
 			<li>Progress bar: Create a visual progress bar and colour in sections as you complete study tasks. For example, divide the bar into ten sections and colour in one section each time you complete a task such as reading an article, watching a lecture or writing a paragraph.</li>
@@ -370,6 +371,7 @@ weight: 8
 			<div id="info-break-down-assessments" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> Breaking down assessments</h3>
 			<p>Breaking your tasks down into small chunks can make things seem less daunting. It can also help you to priorities particular tasks.</p>
+			<img src="/skills-for-nd-students/images/time-management/break-down@2x.png" alt="" class="nd-img-float-lg margin-top-md" />
 			<p>Assignment Planner can help you to:</p>
 			<ul>
 			<li>Break an assessment into steps, such as reading assessment instructions, researching, writing a first draft, etc.</li>
@@ -387,6 +389,7 @@ weight: 8
 			<!-- START info-schedule-timeblock -->
 			<div id="info-schedule-timeblock" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> Scheduling and timeblocking</h3>
+			<img src="/skills-for-nd-students/images/time-management/build/schedule-time-block.png" alt="" class="nd-img-float-lg />
 			<ul>
 			<li>You can use any online calendar, including Outlook.</li>
 			<li>Start by adding fixed commitments such as classes and work shifts. You can set these to repeat each week.</li>
@@ -404,6 +407,7 @@ weight: 8
 			<div id="info-externalising" class="info-technique">
 			<h3><div class="little-heading">Things to remember about</div> Externalising</h3>
 			<p>Getting thoughts and taks out of your head and onto an app or piece of paper can help to free up your brain for other information.</p>
+			<img src="/skills-for-nd-students/images/time-management/build/externalising.png" alt="" class="nd-img-float-lg" />
 			<p>Sticky notes are great for this. They are great for:</p>
 			<ul>
 			<li>Task reminders.</li>
@@ -425,8 +429,8 @@ weight: 8
 				<button class="btn btn-default prev-question">
                 	Restart
             	</button>
-				<button class="btn btn-secondary btn-download">Download Plan (PDF)</button>
-				</div>
+				<button class="btn-download">Download Plan (PDF)</button>
+			</div>
         </div>
         <!-- END plan -->
     </div>

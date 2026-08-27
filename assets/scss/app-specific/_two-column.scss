@@ -60,7 +60,7 @@
 	}
 }
 
-.nd-img-float {
+.nd-img-float, .nd-img-float-lg {
 	max-width: 10rem;
 	margin: 0px auto;
 	display: block;
@@ -68,7 +68,13 @@
 	@include media-breakpoint-up(md) {  
 		float: right;
 		width: 8rem;
-		margin-left: 1rem;
+		margin-left: 1.5rem;
+	}
+}
+
+.nd-img-float-lg {
+	@include media-breakpoint-up(md) {  
+		width: 20rem;
 	}
 }
 

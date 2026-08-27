@@ -172,7 +172,7 @@ weight: 10
 	</ul>  -->
 	<h2>Tools round-up</h2>
 	<ul class="link-large-list-2col">
-		<li><a href="https://goblin.tools/" class="link-large">Goblin Tools</a></li> 
+		<li><a href="https://goblin.tools/" class="link-large">Goblin Tools</a><p> An easy-to-use referencing guide.</p></li> 
 		<li><a href="https://www.todoist.com/" class="link-large">Todoist</a></li> 
 		<li><a href="https://www.focusmate.com/" class="link-large">Focusmate</a></li> 
 		<li><a href="https://forestapp.cc/" class="link-large">Forest</a></li> 

@@ -63,12 +63,34 @@ after_main: |
     <!-- START How this works -->
     <h2>Module features</h2>
     <p>Everything presented in this module is optional. Feel free to browse and pick out the content and advice that works best for you. </p>
+</div>
+    <!--
     <ul>
         <li>Quizzes are not marked or assessed.</li>
         <li>All links are optional — you will not miss any important information if you choose not to open them.</li>
         <li>Feel free to take breaks whenever you need to. A brain break page is included within the module to help with this.</li>
 		<li>Dark mode is available in the settings menu at the top right of the screen (look for the gear icon).</li>
     </ul>
+    -->
+<ul class="feature-grid">
+    <li class="feature feat-quiz">
+        <img src="/skills-for-nd-students/images/time-management/features/quiz.png" alt="" />
+        <span>Quizzes are <strong>not marked</strong> or assessed.</span>
+    </li>
+    <li class="feature feat-link">
+        <img src="/skills-for-nd-students/images/time-management/features/link.png" alt="" />
+        <span>All links are <strong>optional</strong>. You won’t miss important info if you skip them.</span>
+    </li>
+    <li class="feature feat-break">
+        <img src="/skills-for-nd-students/images/time-management/features/break.png" alt="" />
+        <span>Feel free to <strong>take breaks</strong> whenever you need to.</span>
+    </li>
+    <li class="feature feat-dark">
+        <img src="/skills-for-nd-students/images/time-management/features/dark-mode.png" alt="" />
+        <span>Turn on <strong>dark mode</strong> via the gear icon.</span>
+    </li>
+    </ul>
+<div class="content-856px-max">
 	<div class="nd-two-col nd-two-col-right nd-two-col-img-md">
         <img src="/skills-for-nd-students/images/dig-deeper@2x.png" alt="Dog digging a hole" aria-labelledby="my-attribution" />
         <div class="nd-two-col-content">

@@ -51,10 +51,29 @@ article:last-child {
 
 	li {
 		padding: 0;
+
+		p {
+			margin-top: 0.5rem;
+		}
 	}
 
 	@include media-breakpoint-up(md) {  
 		columns: 2;
+	}
+}
+
+//Support grid used in support and resources
+.support-grid {
+	margin-top: 1.5rem;
+	column-gap: 2rem;
+	div {
+		h3 {
+			margin-top: 0;
+			margin-bottom: 0.5rem;
+		}
+		p:first-of-type {
+			margin-top: 0;
+		}
 	}
 }
 

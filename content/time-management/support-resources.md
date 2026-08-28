@@ -147,18 +147,18 @@ weight: 10
 	<h3><a href="https://www.rmit.edu.au/about/our-locations-and-facilities/facilities/safety-security/campus-security" class="link-large margin-top-zero">RMIT emergency and crisis support</a></h3>
 	<p>Find out about support services such as Campus Security (9925 3333) and urgent mental health support (call 1300 305 737 / 0488 884 162).</p>
 	<h2 class="margin-top-xl">RMIT study and assessment tools</h2>
-	<div class="my-grid margin-top-md">
-			<div><h3 class="margin-top-xs"><a href="https://learninglab.rmit.edu.au/" class="link-large margin-top-zero">RMIT Learning Lab</a></h3>
+	<div class=" my-grid support-grid">
+			<div><h3><a href="https://learninglab.rmit.edu.au/" class="link-large margin-top-zero">RMIT Learning Lab</a></h3>
 			<p>Resources to build your academic skills.</p></div>
-			<div><h3 class="margin-top-xs"><a href="https://www.lib.rmit.edu.au/easy-cite/" class="link-large margin-top-zero">Easy Cite</a></h3>
+			<div><h3><a href="https://www.lib.rmit.edu.au/easy-cite/" class="link-large margin-top-zero">Easy Cite</a></h3>
 			<p> An easy-to-use referencing guide.</p></div>
-			<div><h3 class="margin-top-xs"><a href="https://rmit.instructure.com/courses/136341" class="link-large margin-top-zero">Generative AI for Students at RMIT</a></h3>
+			<div><h3><a href="https://rmit.instructure.com/courses/136341" class="link-large margin-top-zero">Generative AI for Students at RMIT</a></h3>
 			<p>A course to help you use generative AI effectively and ethically in your studies.</p></div>
-			<div><h3 class="margin-top-xs"><a href="https://rmit-catalog.rmit.edu.au/browse/catalog/rmit-library/courses/skills-for-success" class="link-large margin-top-zero">Skills for Success</a></h3>
+			<div><h3><a href="https://rmit-catalog.rmit.edu.au/browse/catalog/rmit-library/courses/skills-for-success" class="link-large margin-top-zero">Skills for Success</a></h3>
 			<p> A course designed to help you build key skills for success at university.</p></div>
-			<div><h3 class="margin-top-xs"><a href="https://learninglab.rmit.edu.au/AssignmentPlanner/" class="link-large margin-top-zero">RMIT Assignment Planner</a></h3>
+			<div><h3><a href="https://learninglab.rmit.edu.au/AssignmentPlanner/" class="link-large margin-top-zero">RMIT Assignment Planner</a></h3>
 			<p>Get a step-by-step plan with tips and advice for completing your presentations and written assignments.</p></div>
-			<div><h3 class="margin-top-xs"><a href="https://val.rmit.edu.au/" class="link-large margin-top-zero">VAL</a></h3>
+			<div><h3><a href="https://val.rmit.edu.au/" class="link-large margin-top-zero">VAL</a></h3>
 			<p>RMIT’s virtual assistant for learning, providing fast support to students and staff anytime.</p></div>
 	</div>
 	<hr />
@@ -171,14 +171,20 @@ weight: 10
 		<li><a href="https://val.rmit.edu.au/">VAL:</a> RMIT’s virtual assistant for learning, providing fast support to students and staff anytime.</li>
 	</ul>  -->
 	<h2>Tools round-up</h2>
-	<ul class="link-large-list-2col">
-		<li><a href="https://goblin.tools/" class="link-large">Goblin Tools</a><p> An easy-to-use referencing guide.</p></li> 
-		<li><a href="https://www.todoist.com/" class="link-large">Todoist</a></li> 
-		<li><a href="https://www.focusmate.com/" class="link-large">Focusmate</a></li> 
-		<li><a href="https://forestapp.cc/" class="link-large">Forest</a></li> 
-		<li><a href="https://apps.ankiweb.net/" class="link-large">Anki</a></li> 
-		<li><a href="https://www.tiimoapp.com/" class="link-large">Tiimo</a></li> 
-	</ul>
+	<div class="my-grid support-grid">
+        <div><h3><a href="https://goblin.tools/" class="link-large margin-top-zero">Goblin Tools</a></h3>
+        <p>A collection of tools that helps break broad tasks into smaller, concrete steps.</p></div>
+        <div><h3><a href="https://www.todoist.com/" class="link-large margin-top-zero">Todoist</a></h3>
+        <p>A tool for organising tasks, due dates and reminders, and prioritising what to do next.</p></div>
+        <div><h3><a href="https://www.focusmate.com/" class="link-large margin-top-zero">Focusmate</a></h3>
+        <p>Provides body-doubling sessions to support focus and accountability.</p></div>
+        <div><h3><a href="https://forestapp.cc/" class="link-large margin-top-zero">Forest</a></h3>
+        <p>A focus timer app that encourages sustained attention by gamifying focused work.</p></div>
+        <div><h3><a href="https://apps.ankiweb.net/" class="link-large margin-top-zero">Anki</a></h3>
+        <p>Provides spaced repetition flashcards to help you learn and remember challenging material.</p></div>
+        <div><h3><a href="https://www.tiimoapp.com/" class="link-large margin-top-zero">Tiimo</a></h3>
+        <p>A visual planning app that helps organise tasks and routines into clear, manageable schedules.</p></div>
+	</div>
 		<!-- <div class="card margin-top-lg">
 			<div class="card-body ">
 				<h2 class="card-title ">Tools round-up</h2>

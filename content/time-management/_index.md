@@ -73,19 +73,19 @@ after_main: |
     </ul>
     -->
 <ul class="feature-grid">
-    <li class="feature feat-quiz">
+    <li class="feature">
         <img src="/skills-for-nd-students/images/time-management/features/quiz.png" alt="" />
         <span>Quizzes are <strong>not marked</strong> or assessed.</span>
     </li>
-    <li class="feature feat-link">
+    <li class="feature">
         <img src="/skills-for-nd-students/images/time-management/features/link.png" alt="" />
         <span>All links are <strong>optional</strong>. You won’t miss important info if you skip them.</span>
     </li>
-    <li class="feature feat-break">
+    <li class="feature">
         <img src="/skills-for-nd-students/images/time-management/features/break.png" alt="" />
         <span>Feel free to <strong>take breaks</strong> whenever you need to.</span>
     </li>
-    <li class="feature feat-dark">
+    <li class="feature">
         <img src="/skills-for-nd-students/images/time-management/features/dark-mode.png" alt="" />
         <span>Turn on <strong>dark mode</strong> via the gear icon.</span>
     </li>

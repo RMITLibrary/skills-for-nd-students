@@ -45,7 +45,7 @@ weight: 5
 		<img src="/skills-for-nd-students/images/time-management/procrast-urgency@2x.png" alt="" aria-labelledby="my-attribution" />
 		<div class="margin-top-zero">
 			<h2>RMIT Assignment Planner</h2>
-			<p>The RMIT Assignment Planner provides step-by-step support for planning an individual assessment. It creates a clear sequence of stages, which can reduce uncertainty and make it easier to know where to start. It can also create a visual reminder in your calendar.</p>
+			<p>The RMIT <a href="https://learninglab.rmit.edu.au/AssignmentPlanner/">Assignment Planner</a> provides step-by-step support for planning an individual assessment. It creates a clear sequence of stages, which can reduce uncertainty and make it easier to know where to start. It can also create a visual reminder in your calendar.</p>
 		</div>
 	</div>
 	<div class="accordion margin-top-sm">
@@ -57,7 +57,7 @@ weight: 5
 				<div class="accordion-body">
 					<h4>Why it helps</h4>
 					<p>
-					The RMIT Assignment Planner removes the “where do I even start?” problem by turning an assessment into a sequence of manageable stages.
+					The RMIT <a href="https://learninglab.rmit.edu.au/AssignmentPlanner/">Assignment Planner</a> removes the “where do I even start?” problem by turning an assessment into a sequence of manageable stages.
 					</p>
 					<h4>Best for:</h4>
 					<ul>
@@ -120,7 +120,7 @@ weight: 5
 		<img src="/skills-for-nd-students/images/time-management/goblin-image.png" alt="" aria-labelledby="my-attribution" />
 		<div class="margin-top-zero">
 			<h2>Goblin Tools – Magic To-Do</h2>
-			<p>Magic To-Do helps turn a broad or unclear task into smaller, concrete steps. This can reduce the amount of planning you need to hold in your head and make it easier to begin. You can adjust the suggested steps by simplifying, deleting or rearranging them to suit your situation.</p>
+			<p><a href="https://goblin.tools/ToDo">Magic To-Do</a> helps turn a broad or unclear task into smaller, concrete steps. This can reduce the amount of planning you need to hold in your head and make it easier to begin. You can adjust the suggested steps by simplifying, deleting or rearranging them to suit your situation.</p>
 		</div>
 	</div>
 	<div class="accordion margin-top-sm">

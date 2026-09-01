@@ -10,7 +10,7 @@ weight: 1
 			<img src="/skills-for-nd-students/images/time-management/where-you-at.png" class="hide-sm" alt="" />
 			<div class="nd-two-col-content">
 				<h2 class="title-icon quiz-icon">Self assessment quiz</h2>
-				<p>Read each statement and rate how often it applies to you. <!-- Add up your scores within each group of three questions to see where to focus. --></p>
+				<p>Read each statement and rate how often it applies to you. Answer based on your usual experience this semester. There are no right or wrong answers.<!-- Add up your scores within each group of three questions to see where to focus. --></p>
 				<!-- <p>1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always</p> -->
 			</div>
 		</div>

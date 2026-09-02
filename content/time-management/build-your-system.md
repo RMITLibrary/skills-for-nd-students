@@ -27,52 +27,52 @@ weight: 8
         <!-- START question 1 -->
         <form id="build-q1" class="build-content">
             <fieldset>
-                <p class="lead">1. Select the biggest time management challenge you have:</p>
+                <p class="lead">1. Select the biggest time management challenges you have:</p>
                 <div class="option-container">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-0">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-0">
                         <label class="form-check-label" for="build-q1-0">
                             Estimating time to complete tasks
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-1">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-1">
                         <label class="form-check-label" for="build-q1-1">
                             Organisation and planning
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-2">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-2">
                         <label class="form-check-label" for="build-q1-2">
                             Making priorities
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-3">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-3">
                         <label class="form-check-label" for="build-q1-3">
                             Starting tasks
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-4">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-4">
                         <label class="form-check-label" for="build-q1-4">
                             Focusing
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-5">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-5">
                         <label class="form-check-label" for="build-q1-5">
                             Distraction
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-6">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-6">
                         <label class="form-check-label" for="build-q1-6">
                             Cognitive load
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio-challenge" id="build-q1-7">
+                        <input class="form-check-input" type="checkbox" name="radio-challenge" id="build-q1-7">
                         <label class="form-check-label" for="build-q1-7">
                             Feeling overwhelmed
                         </label>
@@ -89,9 +89,13 @@ weight: 8
         <form id="build-q2" class="build-content" hidden>
             <fieldset>
                 <p class="lead">
-                    2. Select two or more techniques that could help you with
-                    <span id="build-q2-question-highlight" class="nowrap">making priorities</span>:
+                    2. Select two or more techniques that could help you with<span id="build-q2-question-highlight" class="build-q2-highlight nowrap"> making priorities</span>:
                 </p>
+				<ul id="build-q2-question-highlight-list">
+					<li><span>item 1</span></li>
+					<li><span>item 2</span></li>
+					<li><span>item 3</span></li>
+				</ul>
                 <div class="option-container">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="checkbox-techniques" id="build-q2-0">
@@ -185,8 +189,8 @@ weight: 8
         <div id="plan" hidden>
             <h3>My personalised plan</h3>
             <p>
-                The biggest time management challenge I have is
-                <strong id="build-challenge">getting started on assignments.</strong>
+                <span id="build-challenge-statement">The biggest time management challenge I have is</span>
+                <span id="build-challenge"><strong>getting started on assignments.</strong></span>
             </p>
             <p>
                 I now have two techniques to help me with this. They are
@@ -436,4 +440,4 @@ weight: 8
     </div>
     <!-- END build your system -->
 </div>
-<script src="/skills-for-nd-students/js/build-your-system.js?ver=1.3"></script>
+<script src="/skills-for-nd-students/js/build-your-system.js?ver=1.5"></script>

@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const q3Form = document.getElementById('build-q3');
     const planDiv = document.getElementById('plan');
     const q2Highlight = document.getElementById('build-q2-question-highlight');
+	const q2HighlightList = document.getElementById('build-q2-question-highlight-list');
+	const challengeStatementSpan = document.getElementById('build-challenge-statement');
     const challengeTextSpan = document.getElementById('build-challenge');
     const tech1Span = document.getElementById('build-technique1');
     const tech2Span = document.getElementById('build-technique2');
@@ -59,13 +61,106 @@ document.addEventListener('DOMContentLoaded', function () {
     // STEP 1 → 2
     q1Form.addEventListener('submit', function (e) {
         e.preventDefault();
-        const challenge = getCheckedRadioValue('radio-challenge');
+        /* const challenge = getCheckedRadioValue('radio-challenge');
         if (!challenge) {
-            alert('Please select your biggest time management challenge.');
+            alert('Please select at least one time management challenge.');
+            return;
+        } */
+
+		//throw arrow if nothing is selected
+		const challenge = getCheckedCheckboxLabels(q1Form);
+        if (challenge.length < 1) {
+            alert('Please select at least one time management challenge.');
             return;
         }
-        q2Highlight.textContent = challenge.toLowerCase();
-        challengeTextSpan.textContent = challenge.toLowerCase();
+
+		//remove everything from challengeTextSpan
+		while (challengeTextSpan.firstChild) {
+			challengeTextSpan.removeChild(challengeTextSpan.firstChild);
+		}
+		
+		if(challenge.length === 1) {
+			//if we have only one challenge, format the text and add it to questino 2 page
+			q2Highlight.textContent = challenge[0].toLowerCase();
+
+			//show the single highlight, hide the list
+			q2Highlight.hidden = false;
+			q2HighlightList.hidden = true;
+
+			//format the start of the finished plan
+			challengeStatementSpan.textContent = "The biggest time management challenge I have is ";
+
+			//add in bold content
+			const myStrong = document.createElement('strong');
+			myStrong.textContent = challenge[0].toLowerCase() +".";
+			challengeTextSpan.appendChild(myStrong);
+		}
+		else {
+			//if we have more than one challenge
+
+			//remove all previous highlights from the list
+			while (q2HighlightList.firstChild) {
+				q2HighlightList.removeChild(q2HighlightList.firstChild);
+			}
+
+			//change language of final plan intro
+			challengeStatementSpan.textContent = "The biggest time management challenges I have are ";
+
+			//loop and make a list for  question 2 and final plan
+			for(var i=0; i < challenge.length; i++) {
+				
+				//create list item with lead text styling
+				const mySpan = document.createElement('span');
+				mySpan.setAttribute("class", "lead");
+				const myItem = document.createElement('li');
+
+				mySpan.textContent = challenge[i];
+				myItem.appendChild(mySpan);
+				q2HighlightList.appendChild(myItem);
+
+				//make the challenge bold for adding into final plan intro
+				const myStrong = document.createElement('strong');
+				myStrong.textContent = challenge[i].toLowerCase();
+					
+
+				//add it to the final plan as a series of text items. Adjust construction based on the number of items
+				if(i === challenge.length-1) { 
+
+					const andStr = document.createElement('span');
+					andStr.textContent = " and ";
+					challengeTextSpan.appendChild(andStr);
+					challengeTextSpan.appendChild(myStrong);
+
+					//challengeTextSpan.textContent += " and " +challenge[i].toLowerCase();
+				}
+				else if(i != 0) {
+					const commaStr = document.createElement('span');
+					commaStr.textContent = ", ";
+					challengeTextSpan.appendChild(commaStr);
+					challengeTextSpan.appendChild(myStrong);
+					
+					//challengeTextSpan.textContent += ", " +challenge[i].toLowerCase();
+				}
+				else {
+					//first item
+					challengeTextSpan.appendChild(myStrong);
+				}
+			}
+
+			//don't forget the full stop
+			const fullStop = document.createElement('span');
+			fullStop.textContent = ".";
+			challengeTextSpan.appendChild(fullStop);
+			
+			//challengeTextSpan.textContent += ".";
+
+			//hide signle highlight, show the list
+			q2Highlight.hidden = true;
+			q2HighlightList.hidden = false;
+		}
+        
+        /* q2Highlight.textContent = challenge.toLowerCase();
+        challengeTextSpan.textContent = challenge.toLowerCase(); */
 
         q1Form.hidden = true;
         q2Form.hidden = false;

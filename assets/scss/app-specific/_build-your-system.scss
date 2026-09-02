@@ -31,6 +31,10 @@
 		margin-top: 1rem;
 	}
 
+	#build-q1, #build-title {
+		scroll-margin-top: 80px;
+	}
+
 	.build-q2-highlight, #build-q2-question-highlight-list li span {
 		background-color: $underlay-selected;
 		border-radius: 4px;
@@ -41,6 +45,9 @@
 		margin-top: -1rem;
 	}
 	
+	.strong {
+		font-weight: bold;
+	}
 
 	@include media-breakpoint-up(sm) { 
 		padding: 32px 40px;

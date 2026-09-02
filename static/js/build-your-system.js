@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	const q2HighlightList = document.getElementById('build-q2-question-highlight-list');
 	const challengeStatementSpan = document.getElementById('build-challenge-statement');
     const challengeTextSpan = document.getElementById('build-challenge');
+	const challengeList = document.getElementById('build-challenge-list')
     const tech1Span = document.getElementById('build-technique1');
     const tech2Span = document.getElementById('build-technique2');
     const techMainSpan = document.getElementById('build-technique-main');
@@ -67,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         } */
 
-		//throw arrow if nothing is selected
+		//throw error if nothing is selected
 		const challenge = getCheckedCheckboxLabels(q1Form);
         if (challenge.length < 1) {
             alert('Please select at least one time management challenge.');
@@ -87,86 +88,70 @@ document.addEventListener('DOMContentLoaded', function () {
 			q2Highlight.hidden = false;
 			q2HighlightList.hidden = true;
 
-			//format the start of the finished plan
+			//do the same thing for the final plan, change statement text and add the challenge
 			challengeStatementSpan.textContent = "The biggest time management challenge I have is ";
 
 			//add in bold content
 			const myStrong = document.createElement('strong');
 			myStrong.textContent = challenge[0].toLowerCase() +".";
 			challengeTextSpan.appendChild(myStrong);
+
+			//show the single highlight, hide the list
+			challengeTextSpan.hidden = false;
+			challengeList.hidden = true;
 		}
 		else {
 			//if we have more than one challenge
 
-			//remove all previous highlights from the list
+			//remove all previous highlights from both lists (q2 and final plan)
 			while (q2HighlightList.firstChild) {
 				q2HighlightList.removeChild(q2HighlightList.firstChild);
 			}
 
+			while (challengeList.firstChild) {
+				challengeList.removeChild(challengeList.firstChild);
+			}
+
 			//change language of final plan intro
-			challengeStatementSpan.textContent = "The biggest time management challenges I have are ";
+			challengeStatementSpan.textContent = "The biggest time management challenges I have are:";
 
 			//loop and make a list for  question 2 and final plan
 			for(var i=0; i < challenge.length; i++) {
-				
-				//create list item with lead text styling
-				const mySpan = document.createElement('span');
-				mySpan.setAttribute("class", "lead");
-				const myItem = document.createElement('li');
 
-				mySpan.textContent = challenge[i];
-				myItem.appendChild(mySpan);
-				q2HighlightList.appendChild(myItem);
-
-				//make the challenge bold for adding into final plan intro
-				const myStrong = document.createElement('strong');
-				myStrong.textContent = challenge[i].toLowerCase();
-					
-
-				//add it to the final plan as a series of text items. Adjust construction based on the number of items
-				if(i === challenge.length-1) { 
-
-					const andStr = document.createElement('span');
-					andStr.textContent = " and ";
-					challengeTextSpan.appendChild(andStr);
-					challengeTextSpan.appendChild(myStrong);
-
-					//challengeTextSpan.textContent += " and " +challenge[i].toLowerCase();
-				}
-				else if(i != 0) {
-					const commaStr = document.createElement('span');
-					commaStr.textContent = ", ";
-					challengeTextSpan.appendChild(commaStr);
-					challengeTextSpan.appendChild(myStrong);
-					
-					//challengeTextSpan.textContent += ", " +challenge[i].toLowerCase();
-				}
-				else {
-					//first item
-					challengeTextSpan.appendChild(myStrong);
-				}
+				//creat list items for both lists
+				createListItem(challenge[i], q2HighlightList, "lead");
+				createListItem(challenge[i], challengeList, "strong");
 			}
 
-			//don't forget the full stop
-			const fullStop = document.createElement('span');
-			fullStop.textContent = ".";
-			challengeTextSpan.appendChild(fullStop);
-			
-			//challengeTextSpan.textContent += ".";
-
-			//hide signle highlight, show the list
+			//hide single highlight, show the list
 			q2Highlight.hidden = true;
 			q2HighlightList.hidden = false;
+
+			//do the same for the final plan
+			challengeTextSpan.hidden = true;
+			challengeList.hidden = false;
 		}
         
-        /* q2Highlight.textContent = challenge.toLowerCase();
-        challengeTextSpan.textContent = challenge.toLowerCase(); */
-
         q1Form.hidden = true;
         q2Form.hidden = false;
         q3Form.hidden = true;
         planDiv.hidden = true;
+
+		fish();
     });
+
+	function createListItem(myText, myParent, myClass) {
+		
+		const mySpan = document.createElement('span');
+		const myItem = document.createElement('li');
+		if(myClass) {
+			mySpan.setAttribute("class", myClass);
+		}
+
+		mySpan.textContent = myText;
+		myItem.appendChild(mySpan);
+		myParent.appendChild(myItem);
+	}
 
     // STEP 2 → 3
     q2Form.addEventListener('submit', function (e) {
@@ -207,6 +192,8 @@ document.addEventListener('DOMContentLoaded', function () {
         q2Form.hidden = true;
         q3Form.hidden = false;
         planDiv.hidden = true;
+
+		fish();
     });
 
     // STEP 3 → PLAN
@@ -237,6 +224,8 @@ document.addEventListener('DOMContentLoaded', function () {
         q2Form.hidden = true;
         q3Form.hidden = true;
         planDiv.hidden = false;
+
+		fish();
     });
 
     // NEW: BACK BUTTONS
@@ -278,6 +267,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 q2Form.hidden = true;
                 q3Form.hidden = true;
                 hideAllTechniqueBlocks();
+
+				fish();
             }
         });
     });
@@ -295,4 +286,11 @@ document.addEventListener('DOMContentLoaded', function () {
         q3Form.hidden = true;
         hideAllTechniqueBlocks();
     });
+
+	function fish() {
+		document.getElementById('build-title').scrollIntoView({
+			behaviour: 'smooth',
+			block: 'start'
+		});
+	}
 });

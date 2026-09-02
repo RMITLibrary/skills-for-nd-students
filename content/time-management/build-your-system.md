@@ -21,7 +21,7 @@ weight: 8
     <!-- START build your system -->
     <div class="build-system-frame margin-top-lg">
         <div class="heading">
-            <h2>Building your system</h2>
+            <h2 id="build-title">Building your system</h2>
             <p>Answer three questions and get a personalised plan</p>
         </div>
         <!-- START question 1 -->
@@ -192,6 +192,11 @@ weight: 8
                 <span id="build-challenge-statement">The biggest time management challenge I have is</span>
                 <span id="build-challenge"><strong>getting started on assignments.</strong></span>
             </p>
+			<ul id="build-challenge-list">
+				<li><span>item 1</span></li>
+				<li><span>item 2</span></li>
+				<li><span>item 3</span></li>
+			</ul>
             <p>
                 I now have two techniques to help me with this. They are
                 <strong id="build-technique1">the pomodoro technique</strong> and

@@ -27,7 +27,7 @@ showAttribution: false
 	</figure>
 </div>
 <script src="https://unpkg.com/@rive-app/canvas@latest"></script>
-<script>
+<!-- <script>
 new rive.Rive({
   src: '/skills-for-nd-students/riv/form-fidget.riv',
   canvas: document.getElementById('riveCanvas'),
@@ -36,4 +36,18 @@ new rive.Rive({
   onLoad: () => { console.log('Rive loaded'); },
   onError: (e) => { console.error('Rive error:', e); }
 });
-</script>
+</script> -->
+<div class="timer">
+	<svg class="timer-circle" viewBox="0 0 100 100">
+		<circle class="timer-background" cx="50" cy="50" r="45"></circle>
+		<circle class="timer-progress" cx="50" cy="50" r="45"></circle>
+	</svg>
+	<div class="digit-container">
+		<div class="digit" id="ten-minutes"></div>
+		<div class="digit" id="minutes"></div>
+		<div class="digit-separator">:</div>
+		<div class="digit" id="ten-seconds"></div>
+		<div class="digit" id="seconds"></div>
+	</div>
+</div>
+<script src="/skills-for-nd-students/js/brain-break-timer.js?ver=1.1"></script>

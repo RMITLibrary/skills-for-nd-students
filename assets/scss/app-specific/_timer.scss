@@ -1,0 +1,40 @@
+.timer-circle {
+    width: 248px;
+    height: 248px;
+    transform: rotate(-90deg);
+}
+
+.timer-background,
+.timer-progress {
+    fill: none;
+    stroke-width: 6;
+}
+
+.timer-background {
+    stroke: #e5e5e5;
+}
+
+.timer-progress {
+    stroke: #075aaa;
+    stroke-linecap: round;
+}
+
+.timer {
+	.digit-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.digit {
+		width: 0.7em;
+		text-align: center;
+		opacity: 1;
+		transition: opacity 300ms ease;
+	}
+
+	.digit.is-fading {
+		opacity: 0;
+	}
+}

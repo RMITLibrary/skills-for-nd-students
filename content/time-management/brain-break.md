@@ -2,7 +2,7 @@
 title: "Brain break"
 weight: 6
 excludeFromProgress: true
-showAttribution: false
+showAttribution: true
 ---
 <style>
 #riveCanvas {
@@ -16,15 +16,24 @@ showAttribution: false
 </style>
 <div class="content-856px-max">
 	<p class="lead">After all that information, it's time for a little break...</p>
-	<figure class="wide">
-	<canvas id="riveCanvas" width="856" height="483"></canvas>
-	<figcaption>
-		<a href="https://rive.app/marketplace/18831-35392-form-fidget/">Form + Fidget</a> by 
-		<a href="https://rive.app/@noodledesign/">noodledesign</a>, 
-		licensed under 
-		<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. 
-	</figcaption>
-	</figure>
+	<div class="fidget-container">
+		<div id="fidget-grid">
+			<!-- grid goes here -->
+		</div>
+		<div id="timer-container" class="timer">
+			<svg class="timer-circle" viewBox="0 0 100 100">
+				<circle class="timer-background" cx="50" cy="50" r="45"></circle>
+				<circle class="timer-progress" cx="50" cy="50" r="45"></circle>
+			</svg>
+			<div id="digits" class="digit-container" hidden>
+				<div class="digit" id="ten-minutes"></div>
+				<div class="digit" id="minutes"></div>
+				<div class="digit-separator">:</div>
+				<div class="digit" id="ten-seconds"></div>
+				<div class="digit" id="seconds"></div>
+			</div>
+		</div>
+	</div>
 </div>
 <script src="https://unpkg.com/@rive-app/canvas@latest"></script>
 <!-- <script>
@@ -37,17 +46,5 @@ new rive.Rive({
   onError: (e) => { console.error('Rive error:', e); }
 });
 </script> -->
-<div class="timer">
-	<svg class="timer-circle" viewBox="0 0 100 100">
-		<circle class="timer-background" cx="50" cy="50" r="45"></circle>
-		<circle class="timer-progress" cx="50" cy="50" r="45"></circle>
-	</svg>
-	<div class="digit-container">
-		<div class="digit" id="ten-minutes"></div>
-		<div class="digit" id="minutes"></div>
-		<div class="digit-separator">:</div>
-		<div class="digit" id="ten-seconds"></div>
-		<div class="digit" id="seconds"></div>
-	</div>
-</div>
-<script src="/skills-for-nd-students/js/brain-break-timer.js?ver=1.1"></script>
+<script src="/skills-for-nd-students/js/brain-break-timer.js?ver=1.2"></script>
+<script src="/skills-for-nd-students/js/brain-break-fidget.js?ver=1.0"></script>

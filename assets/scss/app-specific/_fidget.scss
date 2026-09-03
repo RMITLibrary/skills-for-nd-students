@@ -1,0 +1,96 @@
+.fidget-container {
+    width: 100%;
+
+    #fidget-grid {
+        flex: 1 1 auto;
+        min-width: 0;
+        width: 100%;
+        max-width: 748px;
+    }
+
+	@include media-breakpoint-up(md) { 
+		display: flex;
+		gap: 1rem;
+
+		margin-top: 1.5rem;
+	}
+}
+
+
+#fidget-grid {
+	
+	display: grid;
+	grid-template-columns: repeat(6, minmax(0, 1fr));
+	gap:0.5rem;
+
+	//max-width: 748px;
+	margin-bottom: 1.5rem;
+
+	div {
+		border-radius: 0.25rem;
+
+		width: 100%;
+    	aspect-ratio: 1;
+		cursor:pointer;
+
+		// Smoothly fade between background colours
+        transition: background-color 300ms ease;
+
+        &.colour-change {
+            animation: colour-pop 350ms ease;
+        }
+	}
+
+	.neutral {
+		background-color: $underlay-selected;
+	}
+
+	.col-1 {
+		background-color: #ffa948;
+	}
+
+	.col-2 {
+		background-color: #e37da2;
+	}
+
+	.col-3 {
+		background-color: #fb7760;
+	}
+
+	.col-4 {
+		background-color: #25b871;
+	}
+
+	.col-5 {
+		background-color: #27aae2;
+	}
+
+	.circle {
+		border-radius: 50%;
+	}
+}
+
+@keyframes colour-pop {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@include color-mode(dark) {
+
+	#fidget-grid {
+		opacity: 0.9;
+
+		.neutral {
+			opacity: 0.4;
+		}
+	}
+}

@@ -1,40 +1,162 @@
-.timer-circle {
-    width: 248px;
-    height: 248px;
-    transform: rotate(-90deg);
-}
-
-.timer-background,
-.timer-progress {
-    fill: none;
-    stroke-width: 6;
-}
-
-.timer-background {
-    stroke: #e5e5e5;
-}
-
-.timer-progress {
-    stroke: #075aaa;
-    stroke-linecap: round;
-}
-
 .timer {
+	position: relative;
+	flex: 0 0 116px;
+    width: 116px;
+    height: 116px;
+
+	cursor: pointer;
+	
+	margin: 0 auto;
+	margin-bottom: 0;
+
+	.timer-circle {
+		width: 116px;
+		height: 116px;
+		transform: rotate(-90deg);
+	}
+
+	.timer-background,
+	.timer-progress {
+		fill: none;
+		stroke-width: 6;
+	}
+
+	.timer-background {
+		stroke: #e5e5e5;
+	}
+
+	.timer-progress {
+		stroke: #075aaa;
+		stroke-linecap: round;
+	}
+
 	.digit-container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		font-variant-numeric: tabular-nums;
 	}
 
-	.digit {
-		width: 0.7em;
+	.digit, .digit-separator {
+		width: 1rem;
 		text-align: center;
 		opacity: 1;
-		transition: opacity 300ms ease;
+		transition: opacity 150ms ease;
+
+		font-family: $font-family-serif;
+		font-size: 1.75rem;
+
+		color: $headings-color;
+	}
+
+	.digit-separator {
+		width: 0.5rem;
+		font-size: 1.25rem;
 	}
 
 	.digit.is-fading {
 		opacity: 0;
+	}
+}
+
+@include color-mode(dark) {
+	.timer-progress {
+		stroke: $link-color-dark;
+		stroke-linecap: round;
+	}
+
+	.timer-background {
+		stroke: $underlay-selected-dark;
+	}
+
+	.timer {
+		.digit, .digit-separator {
+			color: $headings-color-dark;
+		}
+	}
+}
+
+.timer-large-old {
+	position: relative;
+	width: 248px;
+	margin: 0 auto;
+	margin-bottom: 0;
+
+	.timer-circle {
+		width: 248px;
+		height: 248px;
+		transform: rotate(-90deg);
+	}
+
+	.timer-background,
+	.timer-progress {
+		fill: none;
+		stroke-width: 6;
+	}
+
+	.timer-background {
+		stroke: #e5e5e5;
+	}
+
+	.timer-progress {
+		stroke: #075aaa;
+		stroke-linecap: round;
+	}
+
+	.digit-container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.digit, .digit-separator {
+		width: 2.5rem;
+		text-align: center;
+		opacity: 1;
+		//transition: opacity 50ms ease;
+
+		font-family: $font-family-serif;
+		font-size: 4rem;
+
+		color: $headings-color;
+	}
+
+	.digit-separator {
+		width: 1rem;
+		font-size: 3.5rem;
+	}
+
+	.digit.is-fading {
+		//opacity: 0;
+	}
+}
+
+@include color-mode(dark) {
+	.timer-progress {
+		stroke: $link-color-dark;
+		stroke-linecap: round;
+	}
+
+	.timer-background {
+		stroke: $underlay-selected-dark;
+	}
+
+	.timer {
+		.digit, .digit-separator {
+			color: $headings-color-dark;
+		}
 	}
 }

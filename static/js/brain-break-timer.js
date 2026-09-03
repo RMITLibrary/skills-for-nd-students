@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    const totalTime = 180;          // 3 minutes, in seconds
+    const totalTime = 120;          // 2 minutes, in seconds
     const progressInterval = 100;   // Update progress every 100 milliseconds
-    const displayInterval = 15000;  // Update displayed time every 15 seconds
+    const displayInterval = 1000;  // Update displayed time every 5 seconds
 
     //initialise display circle
     const progressCircle = document.querySelector('.timer-progress');
@@ -12,12 +12,18 @@ document.addEventListener('DOMContentLoaded', function () {
     progressCircle.style.strokeDasharray = circumference;
     progressCircle.style.strokeDashoffset = circumference;
 
+	//get reference to timer, digits
+	const timerContainer = document.getElementById('timer-container');
+	const digitsDiv = document.getElementById('digits');
+
     //create values for the timer
     const startTime = Date.now();
     const endTime = startTime + totalTime * 1000;
 
     let progressTimer;
     let displayTimer;
+
+	let timerExpired = false;
 
     function getRemainingTime() {
         const remainingMilliseconds = Math.max(0, endTime - Date.now());
@@ -38,12 +44,20 @@ document.addEventListener('DOMContentLoaded', function () {
         progressCircle.style.strokeDashoffset = offset;
 
         //timer is complere
-        if (timer.milliseconds <= 0) {
-            clearInterval(progressTimer);
-            clearInterval(displayTimer);
+        if (timer.milliseconds <= 0 && !timerExpired) {
+			timerExpired = true;
 
-            console.log('Countdown complete');
-        }
+			clearInterval(progressTimer);
+			clearInterval(displayTimer);
+
+			console.log('Countdown complete');
+
+			// Ensure the final value is displayed
+			updateDisplayedTime();
+
+			// Notify other scripts that the timer has expired
+			document.dispatchEvent(new CustomEvent('timer:expired'));
+		}
     }
 
     //update every displayInterval milliseconds
@@ -66,15 +80,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //update digits - fade them
     function updateDigit(id, newValue) {
-        const digit = document.getElementById(id);
+		const digit = document.getElementById(id);
+		const value = String(newValue);
 
-        digit.classList.add('is-fading');
+		//if digit is the same as existing one, return
+		if (digit.textContent === value) {
+			return;
+		}
 
-        setTimeout(function () {
-            digit.textContent = newValue;
-            digit.classList.remove('is-fading');
-        }, 300);
-    }
+		digit.textContent = value;
+
+		/* //fade code not needed
+		digit.classList.add('is-fading');
+
+		setTimeout(function () {
+			digit.textContent = value;
+			digit.classList.remove('is-fading');
+		}, 100); */
+	}
+
+	timerContainer.addEventListener('click', function (event) {
+		if(digitsDiv.hidden === true) {
+			digitsDiv.hidden = false;
+		}
+		else {
+			digitsDiv.hidden = true;
+		}
+	});
+
 
     // Output initial values immediately
     updateProgress();

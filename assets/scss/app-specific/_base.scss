@@ -119,6 +119,21 @@ article:last-child {
 		content: none;
 }
 
+
+.module-nav  {
+	@include media-breakpoint-up(sm) {
+        max-width: 540px;
+    }
+
+	@include media-breakpoint-up(md) {
+        max-width: 720px;
+    }
+
+	@include media-breakpoint-up(lg) {
+        max-width: 856px;
+    }
+}
+
 // Dark mode
 @include color-mode(dark) {
 	.module-nav .link-list li.active {
